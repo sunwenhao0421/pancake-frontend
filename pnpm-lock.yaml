@@ -23,10 +23,10 @@ importers:
       '@changesets/cli':
         specifier: ^2.26.2
         version: 2.26.2
-      '@pancakeswap/eslint-config-pancake':
+      '@mixmarvelswap/eslint-config-pancake':
         specifier: workspace:*
         version: link:packages/eslint-config
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:packages/tsconfig
       '@stylelint/postcss-css-in-js':
@@ -95,25 +95,25 @@ importers:
 
   apis/farms:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../../packages/chains
-      '@pancakeswap/farms':
+      '@mixmarvelswap/farms':
         specifier: workspace:*
         version: link:../../packages/farms
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../../packages/swap-sdk
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../../packages/swap-sdk-core
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
-      '@pancakeswap/v3-sdk':
+      '@mixmarvelswap/v3-sdk':
         specifier: workspace:*
         version: link:../../packages/v3-sdk
-      '@pancakeswap/worker-utils':
+      '@mixmarvelswap/worker-utils':
         specifier: workspace:*
         version: link:../../packages/worker-utils
       bignumber.js:
@@ -144,7 +144,7 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^3.10.0
         version: 3.19.0
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/itty-router-extras':
@@ -169,7 +169,7 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^3.10.0
         version: 3.19.0
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/itty-router-extras':
@@ -181,22 +181,22 @@ importers:
 
   apis/routing:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../../packages/chains
-      '@pancakeswap/farms':
+      '@mixmarvelswap/farms':
         specifier: workspace:*
         version: link:../../packages/farms
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../../packages/swap-sdk
-      '@pancakeswap/smart-router':
+      '@mixmarvelswap/smart-router':
         specifier: workspace:*
         version: link:../../packages/smart-router
-      '@pancakeswap/v3-sdk':
+      '@mixmarvelswap/v3-sdk':
         specifier: workspace:*
         version: link:../../packages/v3-sdk
-      '@pancakeswap/worker-utils':
+      '@mixmarvelswap/worker-utils':
         specifier: workspace:*
         version: link:../../packages/worker-utils
       graphql-request:
@@ -215,7 +215,7 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^3.10.0
         version: 3.19.0
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/itty-router-extras':
@@ -233,40 +233,40 @@ importers:
       '@ethersproject/keccak256':
         specifier: ^5.7.0
         version: 5.7.0
-      '@pancakeswap/aptos-swap-sdk':
+      '@mixmarvelswap/aptos-swap-sdk':
         specifier: workspace:*
         version: link:../../packages/aptos-swap-sdk
-      '@pancakeswap/awgmi':
+      '@mixmarvelswap/awgmi':
         specifier: workspace:*
         version: link:../../packages/awgmi
-      '@pancakeswap/farms':
+      '@mixmarvelswap/farms':
         specifier: workspace:*
         version: link:../../packages/farms
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@pancakeswap/localization':
+      '@mixmarvelswap/localization':
         specifier: workspace:*
         version: link:../../packages/localization
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../../packages/swap-sdk-core
-      '@pancakeswap/token-lists':
+      '@mixmarvelswap/token-lists':
         specifier: workspace:*
         version: link:../../packages/token-lists
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
-      '@pancakeswap/ui-wallets':
+      '@mixmarvelswap/ui-wallets':
         specifier: workspace:*
         version: link:../../packages/ui-wallets
-      '@pancakeswap/uikit':
+      '@mixmarvelswap/uikit':
         specifier: workspace:*
         version: link:../../packages/uikit
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../../packages/utils
-      '@pancakeswap/widgets-internal':
+      '@mixmarvelswap/widgets-internal':
         specifier: workspace:*
         version: link:../../packages/widgets-internal
       '@reduxjs/toolkit':
@@ -330,10 +330,10 @@ importers:
       '@next/eslint-plugin-next':
         specifier: 13.4.2
         version: 13.4.2
-      '@pancakeswap/next-config':
+      '@mixmarvelswap/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/lodash':
@@ -363,19 +363,19 @@ importers:
 
   apps/blog:
     dependencies:
-      '@pancakeswap/blog':
+      '@mixmarvelswap/blog':
         specifier: workspace:*
         version: link:../../packages/blog
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@pancakeswap/localization':
+      '@mixmarvelswap/localization':
         specifier: workspace:*
         version: link:../../packages/localization
-      '@pancakeswap/uikit':
+      '@mixmarvelswap/uikit':
         specifier: workspace:*
         version: link:../../packages/uikit
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@tanstack/react-query':
@@ -418,10 +418,10 @@ importers:
       '@next/eslint-plugin-next':
         specifier: 13.4.2
         version: 13.4.2
-      '@pancakeswap/next-config':
+      '@mixmarvelswap/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/node':
@@ -451,13 +451,13 @@ importers:
       '@material-ui/core':
         specifier: ^4.12.4
         version: 4.12.4(@types/react@18.2.37)(react-dom@18.2.0)(react@18.2.0)
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@pancakeswap/uikit':
+      '@mixmarvelswap/uikit':
         specifier: workspace:*
         version: link:../../packages/uikit
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@vanilla-extract/next-plugin':
@@ -494,10 +494,10 @@ importers:
       '@next/eslint-plugin-next':
         specifier: 13.4.2
         version: 13.4.2
-      '@pancakeswap/next-config':
+      '@mixmarvelswap/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/node':
@@ -525,25 +525,25 @@ importers:
 
   apps/games:
     dependencies:
-      '@pancakeswap/blog':
+      '@mixmarvelswap/blog':
         specifier: workspace:*
         version: link:../../packages/blog
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../../packages/chains
-      '@pancakeswap/games':
+      '@mixmarvelswap/games':
         specifier: workspace:*
         version: link:../../packages/games
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@pancakeswap/localization':
+      '@mixmarvelswap/localization':
         specifier: workspace:*
         version: link:../../packages/localization
-      '@pancakeswap/uikit':
+      '@mixmarvelswap/uikit':
         specifier: workspace:*
         version: link:../../packages/uikit
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../../packages/utils
       '@tanstack/react-query':
@@ -595,10 +595,10 @@ importers:
       '@next/eslint-plugin-next':
         specifier: 13.4.2
         version: 13.4.2
-      '@pancakeswap/next-config':
+      '@mixmarvelswap/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@types/lodash':
@@ -652,70 +652,70 @@ importers:
       '@next/bundle-analyzer':
         specifier: 13.0.7
         version: 13.0.7
-      '@pancakeswap/blog':
+      '@mixmarvelswap/blog':
         specifier: workspace:*
         version: link:../../packages/blog
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../../packages/chains
-      '@pancakeswap/farms':
+      '@mixmarvelswap/farms':
         specifier: workspace:*
         version: link:../../packages/farms
-      '@pancakeswap/gauges':
+      '@mixmarvelswap/gauges':
         specifier: workspace:*
         version: link:../../packages/gauges
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../../packages/hooks
-      '@pancakeswap/ifos':
+      '@mixmarvelswap/ifos':
         specifier: workspace:*
         version: link:../../packages/ifos
-      '@pancakeswap/localization':
+      '@mixmarvelswap/localization':
         specifier: workspace:*
         version: link:../../packages/localization
-      '@pancakeswap/multicall':
+      '@mixmarvelswap/multicall':
         specifier: workspace:*
         version: link:../../packages/multicall
-      '@pancakeswap/pools':
+      '@mixmarvelswap/pools':
         specifier: workspace:*
         version: link:../../packages/pools
-      '@pancakeswap/position-managers':
+      '@mixmarvelswap/position-managers':
         specifier: workspace:*
         version: link:../../packages/position-managers
-      '@pancakeswap/prediction':
+      '@mixmarvelswap/prediction':
         specifier: workspace:*
         version: link:../../packages/prediction
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../../packages/swap-sdk
-      '@pancakeswap/smart-router':
+      '@mixmarvelswap/smart-router':
         specifier: workspace:*
         version: link:../../packages/smart-router
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../../packages/swap-sdk-core
-      '@pancakeswap/token-lists':
+      '@mixmarvelswap/token-lists':
         specifier: workspace:*
         version: link:../../packages/token-lists
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../../packages/tokens
-      '@pancakeswap/ui-wallets':
+      '@mixmarvelswap/ui-wallets':
         specifier: workspace:*
         version: link:../../packages/ui-wallets
-      '@pancakeswap/uikit':
+      '@mixmarvelswap/uikit':
         specifier: workspace:*
         version: link:../../packages/uikit
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../../packages/utils
-      '@pancakeswap/v3-sdk':
+      '@mixmarvelswap/v3-sdk':
         specifier: workspace:*
         version: link:../../packages/v3-sdk
-      '@pancakeswap/wagmi':
+      '@mixmarvelswap/wagmi':
         specifier: workspace:*
         version: link:../../packages/wagmi
-      '@pancakeswap/widgets-internal':
+      '@mixmarvelswap/widgets-internal':
         specifier: workspace:*
         version: link:../../packages/widgets-internal
       '@pythnetwork/pyth-evm-js':
@@ -908,10 +908,10 @@ importers:
       '@next/eslint-plugin-next':
         specifier: 13.4.2
         version: 13.4.2
-      '@pancakeswap/next-config':
+      '@mixmarvelswap/next-config':
         specifier: workspace:*
         version: link:../../packages/next-config
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../../packages/tsconfig
       '@stylelint/postcss-css-in-js':
@@ -1040,7 +1040,7 @@ importers:
 
   examples/playground:
     dependencies:
-      '@pancakeswap/uikit':
+      '@mixmarvelswap/uikit':
         specifier: workspace:*
         version: link:../../packages/uikit
       '@types/node':
@@ -1064,7 +1064,7 @@ importers:
 
   packages/aptos-swap-sdk:
     dependencies:
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
       aptos:
@@ -1135,10 +1135,10 @@ importers:
       '@msafe/aptos-wallet':
         specifier: ^3.0.6
         version: 3.0.6
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       '@types/react':
@@ -1163,7 +1163,7 @@ importers:
         specifier: ^6.0.0
         version: 6.10.5
     devDependencies:
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/lodash':
@@ -1214,25 +1214,25 @@ importers:
 
   packages/farms:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
-      '@pancakeswap/token-lists':
+      '@mixmarvelswap/token-lists':
         specifier: workspace:*
         version: link:../token-lists
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
-      '@pancakeswap/v3-sdk':
+      '@mixmarvelswap/v3-sdk':
         specifier: workspace:*
         version: link:../v3-sdk
       bignumber.js:
@@ -1260,14 +1260,14 @@ importers:
 
   packages/games:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
     devDependencies:
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/lodash':
@@ -1276,20 +1276,20 @@ importers:
 
   packages/gauges:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:^
         version: link:../chains
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:^
         version: link:../tokens
-      '@pancakeswap/v3-sdk':
+      '@mixmarvelswap/v3-sdk':
         specifier: workspace:^
         version: link:../v3-sdk
       viem:
         specifier: 1.19.11
         version: 1.19.11(typescript@5.2.2)(zod@3.22.4)
     devDependencies:
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:^
         version: link:../swap-sdk
       '@types/lodash':
@@ -1304,10 +1304,10 @@ importers:
 
   packages/hooks:
     dependencies:
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       dayjs:
@@ -1338,23 +1338,23 @@ importers:
       '@layerzerolabs/scan-client':
         specifier: ^0.0.6
         version: 0.0.6(axios@1.6.2)
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
       bignumber.js:
         specifier: ^9.0.0
         version: 9.1.2
     devDependencies:
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       viem:
@@ -1376,10 +1376,10 @@ importers:
         specifier: ^2.2.0
         version: 2.6.2
     devDependencies:
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       '@types/lodash':
@@ -1391,20 +1391,20 @@ importers:
 
   packages/multicall:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
       viem:
         specifier: 1.19.11
         version: 1.19.11(typescript@5.2.2)(zod@3.22.4)
     devDependencies:
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       tsup:
@@ -1419,13 +1419,13 @@ importers:
 
   packages/pools:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/token-lists':
+      '@mixmarvelswap/token-lists':
         specifier: workspace:*
         version: link:../token-lists
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../tokens
       bignumber.js:
@@ -1441,10 +1441,10 @@ importers:
         specifier: 1.4.7
         version: 1.4.7(@types/react@18.2.37)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.19.11)(zod@3.22.4)
     devDependencies:
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       '@types/lodash':
@@ -1456,19 +1456,19 @@ importers:
 
   packages/position-managers:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/token-lists':
+      '@mixmarvelswap/token-lists':
         specifier: workspace:*
         version: link:../token-lists
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@pancakeswap/v3-sdk':
+      '@mixmarvelswap/v3-sdk':
         specifier: workspace:*
         version: link:../v3-sdk
       bignumber.js:
@@ -1484,10 +1484,10 @@ importers:
         specifier: 1.4.7
         version: 1.4.7(@types/react@18.2.37)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.19.11)(zod@3.22.4)
     devDependencies:
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       '@types/lodash':
@@ -1496,13 +1496,13 @@ importers:
 
   packages/prediction:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/pools':
+      '@mixmarvelswap/pools':
         specifier: workspace:*
         version: link:../pools
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../tokens
       viem:
@@ -1512,34 +1512,34 @@ importers:
         specifier: 1.4.7
         version: 1.4.7(@types/react@18.2.37)(encoding@0.1.13)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)(viem@1.19.11)(zod@3.22.4)
     devDependencies:
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
 
   packages/smart-router:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/multicall':
+      '@mixmarvelswap/multicall':
         specifier: workspace:*
         version: link:../multicall
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
-      '@pancakeswap/token-lists':
+      '@mixmarvelswap/token-lists':
         specifier: workspace:*
         version: link:../token-lists
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@pancakeswap/v3-sdk':
+      '@mixmarvelswap/v3-sdk':
         specifier: workspace:*
         version: link:../v3-sdk
       async-retry:
@@ -1573,10 +1573,10 @@ importers:
         specifier: ^3.22.3
         version: 3.22.4
     devDependencies:
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       '@types/async-retry':
@@ -1597,10 +1597,10 @@ importers:
 
   packages/swap-sdk:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:^
         version: link:../chains
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
       big.js:
@@ -1665,7 +1665,7 @@ importers:
 
   packages/token-lists:
     dependencies:
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
       ajv:
@@ -1675,7 +1675,7 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
     devDependencies:
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       '@reduxjs/toolkit':
@@ -1699,17 +1699,17 @@ importers:
 
   packages/tokens:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/token-lists':
+      '@mixmarvelswap/token-lists':
         specifier: workspace:*
         version: link:../token-lists
     devDependencies:
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       tsup:
@@ -1720,13 +1720,13 @@ importers:
 
   packages/ui-wallets:
     dependencies:
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@pancakeswap/localization':
+      '@mixmarvelswap/localization':
         specifier: workspace:*
         version: link:../localization
-      '@pancakeswap/uikit':
+      '@mixmarvelswap/uikit':
         specifier: workspace:*
         version: link:../uikit
       '@types/react':
@@ -1753,10 +1753,10 @@ importers:
 
   packages/uikit:
     dependencies:
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@pancakeswap/localization':
+      '@mixmarvelswap/localization':
         specifier: workspace:*
         version: link:../localization
       '@popperjs/core':
@@ -1835,10 +1835,10 @@ importers:
       '@babel/preset-react':
         specifier: ^7.18.6
         version: 7.23.3(@babel/core@7.23.3)
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       '@rollup/plugin-json':
@@ -1994,10 +1994,10 @@ importers:
 
   packages/utils:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/localization':
+      '@mixmarvelswap/localization':
         specifier: workspace:*
         version: link:../localization
       dayjs:
@@ -2010,10 +2010,10 @@ importers:
         specifier: ^1.5.10
         version: 1.5.10
     devDependencies:
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
       '@types/lodash':
@@ -2034,16 +2034,16 @@ importers:
 
   packages/v3-sdk:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../tokens
       '@uniswap/v3-staker':
@@ -2068,7 +2068,7 @@ importers:
         specifier: 1.19.11
         version: 1.19.11(typescript@5.2.2)(zod@3.22.4)
     devDependencies:
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
       tsup:
@@ -2080,7 +2080,7 @@ importers:
       '@blocto/sdk':
         specifier: ^0.5.4
         version: 0.5.5(aptos@1.3.16)
-      '@pancakeswap/tsconfig':
+      '@mixmarvelswap/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
       '@types/react':
@@ -2104,37 +2104,37 @@ importers:
 
   packages/widgets-internal:
     dependencies:
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../chains
-      '@pancakeswap/farms':
+      '@mixmarvelswap/farms':
         specifier: workspace:*
         version: link:../farms
-      '@pancakeswap/hooks':
+      '@mixmarvelswap/hooks':
         specifier: workspace:*
         version: link:../hooks
-      '@pancakeswap/localization':
+      '@mixmarvelswap/localization':
         specifier: workspace:*
         version: link:../localization
-      '@pancakeswap/pools':
+      '@mixmarvelswap/pools':
         specifier: workspace:*
         version: link:../pools
-      '@pancakeswap/sdk':
+      '@mixmarvelswap/sdk':
         specifier: workspace:*
         version: link:../swap-sdk
-      '@pancakeswap/swap-sdk-core':
+      '@mixmarvelswap/swap-sdk-core':
         specifier: workspace:*
         version: link:../swap-sdk-core
-      '@pancakeswap/tokens':
+      '@mixmarvelswap/tokens':
         specifier: workspace:*
         version: link:../tokens
-      '@pancakeswap/uikit':
+      '@mixmarvelswap/uikit':
         specifier: workspace:*
         version: link:../uikit
-      '@pancakeswap/utils':
+      '@mixmarvelswap/utils':
         specifier: workspace:*
         version: link:../utils
-      '@pancakeswap/v3-sdk':
+      '@mixmarvelswap/v3-sdk':
         specifier: workspace:*
         version: link:../v3-sdk
       bignumber.js:
@@ -2191,13 +2191,13 @@ importers:
 
   scripts:
     devDependencies:
-      '@pancakeswap/aptos-swap-sdk':
+      '@mixmarvelswap/aptos-swap-sdk':
         specifier: workspace:*
         version: link:../packages/aptos-swap-sdk
-      '@pancakeswap/chains':
+      '@mixmarvelswap/chains':
         specifier: workspace:*
         version: link:../packages/chains
-      '@pancakeswap/farms':
+      '@mixmarvelswap/farms':
         specifier: workspace:*
         version: link:../packages/farms
       '@types/lodash':

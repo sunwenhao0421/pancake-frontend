@@ -1,8 +1,8 @@
-import { ChainId, getV3Subgraphs } from '@pancakeswap/chains'
-import { OnChainProvider, SubgraphProvider } from '@pancakeswap/smart-router/evm'
+import { ChainId, getV3Subgraphs } from '@mixmarvelswap/chains'
+import { OnChainProvider, SubgraphProvider } from '@mixmarvelswap/smart-router/evm'
+import { GraphQLClient } from 'graphql-request'
 import { createPublicClient, http } from 'viem'
 import { bsc, bscTestnet, goerli, mainnet } from 'viem/chains'
-import { GraphQLClient } from 'graphql-request'
 
 import { SupportedChainId } from './constants'
 

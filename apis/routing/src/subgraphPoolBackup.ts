@@ -1,8 +1,8 @@
-import { SmartRouter } from '@pancakeswap/smart-router/evm'
+import { SmartRouter } from '@mixmarvelswap/smart-router/evm'
 
-import { v3SubgraphProvider } from './provider'
 import { SUPPORTED_CHAINS } from './constants'
 import { getPoolsObjectName, getPoolsTvlObjectName } from './pools'
+import { v3SubgraphProvider } from './provider'
 
 // eslint-disable-next-line consistent-return
 async function handleScheduled(event: ScheduledEvent) {

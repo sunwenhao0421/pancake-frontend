@@ -1,10 +1,10 @@
 /* eslint-disable no-restricted-syntax */
-import { ChainId } from '@pancakeswap/chains'
-import chunk from 'lodash/chunk'
+import { ChainId } from '@mixmarvelswap/chains'
+import { AprMap } from '@mixmarvelswap/farms'
 import BigNumber from 'bignumber.js'
-import { gql, GraphQLClient } from 'graphql-request'
 import dayjs from 'dayjs'
-import { AprMap } from '@pancakeswap/farms'
+import { gql, GraphQLClient } from 'graphql-request'
+import chunk from 'lodash/chunk'
 import _toLower from 'lodash/toLower'
 
 interface BlockResponse {
