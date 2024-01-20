@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Balance, Skeleton, TooltipText, useTooltip } from "@pancakeswap/uikit";
-import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { Balance, Skeleton, TooltipText, useTooltip } from "@mixmarvelswap/uikit";
+import { getBalanceNumber } from "@mixmarvelswap/utils/formatBalance";
 import BigNumber from "bignumber.js";
 import { StatWrapper } from "./StatWrapper";
 

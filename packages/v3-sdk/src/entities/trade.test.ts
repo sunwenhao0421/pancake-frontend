@@ -1,4 +1,4 @@
-import { WETH9, Native, CurrencyAmount, Percent, Price, sqrt, Token, TradeType } from '@pancakeswap/sdk'
+import { WETH9, Native, CurrencyAmount, Percent, Price, sqrt, Token, TradeType } from '@mixmarvelswap/sdk'
 import { FeeAmount, TICK_SPACINGS } from '../constants'
 import { encodeSqrtRatioX96 } from '../utils/encodeSqrtRatioX96'
 import { nearestUsableTick } from '../utils/nearestUsableTick'

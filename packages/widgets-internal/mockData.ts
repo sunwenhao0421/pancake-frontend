@@ -1,5 +1,5 @@
-import { ERC20Token } from "@pancakeswap/sdk";
-import { ChainId } from "@pancakeswap/chains";
+import { ERC20Token } from "@mixmarvelswap/sdk";
+import { ChainId } from "@mixmarvelswap/chains";
 
 // For StoryBook
 export const cakeToken = new ERC20Token(

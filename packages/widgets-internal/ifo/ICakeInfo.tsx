@@ -1,8 +1,8 @@
 import { ReactNode, useMemo } from "react";
-import { FlexGap, Text, useTooltip } from "@pancakeswap/uikit";
+import { FlexGap, Text, useTooltip } from "@mixmarvelswap/uikit";
 import { SpaceProps } from "styled-system";
-import { useTranslation } from "@pancakeswap/localization";
-import { formatUnixTimestamp } from "@pancakeswap/utils/formatTimestamp";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { formatUnixTimestamp } from "@mixmarvelswap/utils/formatTimestamp";
 import styled from "styled-components";
 
 type Props = {

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@mixmarvelswap/chains'
 import { Address } from 'viem'
 import { FarmV3SupportedChainId } from '../../src'
 import { ComputedFarmConfigV3 } from '../../src/types'

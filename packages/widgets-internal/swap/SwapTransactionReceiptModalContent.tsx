@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@mixmarvelswap/localization";
 import { PropsWithChildren } from "react";
-import { Text, Box, CheckmarkCircleIcon, AutoColumn } from "@pancakeswap/uikit";
+import { Text, Box, CheckmarkCircleIcon, AutoColumn } from "@mixmarvelswap/uikit";
 
 export const SwapTransactionReceiptModalContent: React.FC<PropsWithChildren> = ({ children }) => {
   const { t } = useTranslation();

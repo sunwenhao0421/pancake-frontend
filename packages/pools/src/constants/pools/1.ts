@@ -1,4 +1,4 @@
-import { ethereumTokens } from '@pancakeswap/tokens'
+import { ethereumTokens } from '@mixmarvelswap/tokens'
 import { getAddress } from 'viem'
 
 import { PoolCategory, SerializedPool } from '../../types'

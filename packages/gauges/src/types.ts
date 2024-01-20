@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@mixmarvelswap/chains'
+import { FeeAmount } from '@mixmarvelswap/v3-sdk'
 import type { Address } from 'viem'
 
 export enum GaugeType {

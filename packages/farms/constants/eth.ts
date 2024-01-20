@@ -1,5 +1,5 @@
-import { ethereumTokens } from '@pancakeswap/tokens'
-import { FeeAmount, Pool } from '@pancakeswap/v3-sdk'
+import { ethereumTokens } from '@mixmarvelswap/tokens'
+import { FeeAmount, Pool } from '@mixmarvelswap/v3-sdk'
 import { getAddress } from 'viem'
 import { SerializedFarmConfig } from '..'
 import { defineFarmV3Configs } from '../src/defineFarmV3Configs'

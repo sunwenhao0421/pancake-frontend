@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { AtomBox, Button, Heading, Image, LinkExternal, Text } from '@pancakeswap/uikit'
+import { Trans } from '@mixmarvelswap/localization'
+import { AtomBox, Button, Heading, Image, LinkExternal, Text } from '@mixmarvelswap/uikit'
 import { useState, useCallback } from 'react'
 import 'swiper/css'
 import 'swiper/css/autoplay'

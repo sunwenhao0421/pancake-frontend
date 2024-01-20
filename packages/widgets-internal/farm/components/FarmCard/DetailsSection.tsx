@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@mixmarvelswap/localization";
 import { styled } from "styled-components";
 import {
   Flex,
@@ -10,8 +10,8 @@ import {
   HelpIcon,
   useTooltip,
   FarmMultiplierInfo,
-} from "@pancakeswap/uikit";
-import { ChainId } from "@pancakeswap/chains";
+} from "@mixmarvelswap/uikit";
+import { ChainId } from "@mixmarvelswap/chains";
 
 export interface ExpandableSectionProps {
   scanAddress?: { link: string; chainId?: number; icon?: ReactElement };

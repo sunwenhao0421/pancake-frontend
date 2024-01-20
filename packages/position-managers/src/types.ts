@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Percent, Price } from '@pancakeswap/sdk'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { Currency, CurrencyAmount, Percent, Price } from '@mixmarvelswap/sdk'
+import { FeeAmount } from '@mixmarvelswap/v3-sdk'
 import { Address, Hash } from 'viem'
 
 import { BaseManager, MANAGER } from './constants/managers'

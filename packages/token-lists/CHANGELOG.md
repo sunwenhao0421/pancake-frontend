@@ -1,4 +1,4 @@
-# @pancakeswap/token-lists
+# @mixmarvelswap/token-lists
 
 ## 0.0.9
 
@@ -17,7 +17,7 @@
 ### Patch Changes
 
 - Updated dependencies [b5dbd2921]
-  - @pancakeswap/swap-sdk-core@1.0.0
+  - @mixmarvelswap/swap-sdk-core@1.0.0
 
 ## 0.0.6
 

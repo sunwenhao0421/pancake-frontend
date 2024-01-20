@@ -1,15 +1,15 @@
-import { Currency, CurrencyAmount, Price, Token, ZERO, Percent, ZERO_PERCENT } from "@pancakeswap/sdk";
-import { FeeAmount, FeeCalculator, TickMath, sqrtRatioX96ToPrice } from "@pancakeswap/v3-sdk";
-import { useTranslation } from "@pancakeswap/localization";
+import { Currency, CurrencyAmount, Price, Token, ZERO, Percent, ZERO_PERCENT } from "@mixmarvelswap/sdk";
+import { FeeAmount, FeeCalculator, TickMath, sqrtRatioX96ToPrice } from "@mixmarvelswap/v3-sdk";
+import { useTranslation } from "@mixmarvelswap/localization";
 import { useCallback, useMemo, useState } from "react";
 import BigNumber from "bignumber.js";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
-import { isPositionOutOfRange } from "@pancakeswap/utils/isPositionOutOfRange";
-import { formatPercent, formatFraction, formatPrice } from "@pancakeswap/utils/formatFractions";
+import { BIG_ZERO } from "@mixmarvelswap/utils/bigNumber";
+import { isPositionOutOfRange } from "@mixmarvelswap/utils/isPositionOutOfRange";
+import { formatPercent, formatFraction, formatPrice } from "@mixmarvelswap/utils/formatFractions";
 
-import { Button, DynamicSection, Flex, Message, MessageText, useMatchBreakpoints } from "@pancakeswap/uikit";
+import { Button, DynamicSection, Flex, Message, MessageText, useMatchBreakpoints } from "@mixmarvelswap/uikit";
 
-import { ScrollableContainer } from "@pancakeswap/uikit/components/RoiCalculatorModal/RoiCalculatorModal";
+import { ScrollableContainer } from "@mixmarvelswap/uikit/components/RoiCalculatorModal/RoiCalculatorModal";
 import { Section } from "./Section";
 import { DepositAmountInput } from "./DepositAmount";
 import { RangeSelector } from "./RangeSelector";

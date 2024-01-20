@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/prediction",
+  "name": "@mixmarvelswap/prediction",
   "version": "0.0.5",
   "sideEffects": false,
   "private": true,
@@ -8,17 +8,17 @@
   },
   "type": "module",
   "peerDependencies": {
-    "@pancakeswap/sdk": "workspace:*"
+    "@mixmarvelswap/sdk": "workspace:*"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/pools": "workspace:*",
+    "@mixmarvelswap/chains": "workspace:*",
+    "@mixmarvelswap/tokens": "workspace:*",
+    "@mixmarvelswap/pools": "workspace:*",
     "viem": "1.19.11",
     "wagmi": "1.4.7"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/tsconfig": "workspace:*"
+    "@mixmarvelswap/sdk": "workspace:*",
+    "@mixmarvelswap/tsconfig": "workspace:*"
   }
 }

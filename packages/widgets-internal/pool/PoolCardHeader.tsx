@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 import { styled } from "styled-components";
-import getThemeValue from "@pancakeswap/uikit/util/getThemeValue";
-import { CardHeader, Flex, Heading, Text } from "@pancakeswap/uikit";
+import getThemeValue from "@mixmarvelswap/uikit/util/getThemeValue";
+import { CardHeader, Flex, Heading, Text } from "@mixmarvelswap/uikit";
 import Tags from "../farm/components/Tags";
 
 const { AlpBoostedTag } = Tags;

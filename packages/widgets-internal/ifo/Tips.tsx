@@ -1,9 +1,9 @@
 import BigNumber from "bignumber.js";
 import { useMemo } from "react";
 import { SpaceProps } from "styled-system";
-import { FlexGap, Message, MessageText, InfoFilledIcon, Box, MessageProps } from "@pancakeswap/uikit";
+import { FlexGap, Message, MessageText, InfoFilledIcon, Box, MessageProps } from "@mixmarvelswap/uikit";
 import Link from "next/link";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@mixmarvelswap/localization";
 import styled from "styled-components";
 
 type Props = {

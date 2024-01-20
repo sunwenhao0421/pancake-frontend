@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from "@pancakeswap/sdk";
-import tryParseAmount from "@pancakeswap/utils/tryParseAmount";
+import { Currency, CurrencyAmount } from "@mixmarvelswap/sdk";
+import tryParseAmount from "@mixmarvelswap/utils/tryParseAmount";
 
 interface Params {
   usdValue?: string;

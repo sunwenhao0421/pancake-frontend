@@ -1,6 +1,6 @@
-import { ChainId } from "@pancakeswap/chains";
-import { Currency, NATIVE, Token } from "@pancakeswap/sdk";
-import { bscTokens, ethereumTokens } from "@pancakeswap/tokens";
+import { ChainId } from "@mixmarvelswap/chains";
+import { Currency, NATIVE, Token } from "@mixmarvelswap/sdk";
+import { bscTokens, ethereumTokens } from "@mixmarvelswap/tokens";
 import memoize from "lodash/memoize";
 import { getAddress } from "viem";
 

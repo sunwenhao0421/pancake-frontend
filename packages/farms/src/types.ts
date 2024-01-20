@@ -1,6 +1,6 @@
-import { SerializedToken, Token } from '@pancakeswap/swap-sdk-core'
-import { SerializedWrappedToken } from '@pancakeswap/token-lists'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { SerializedToken, Token } from '@mixmarvelswap/swap-sdk-core'
+import { SerializedWrappedToken } from '@mixmarvelswap/token-lists'
+import { FeeAmount } from '@mixmarvelswap/v3-sdk'
 import BigNumber from 'bignumber.js'
 import { Address } from 'viem'
 

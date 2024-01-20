@@ -1,7 +1,7 @@
 import { Hex, encodeFunctionData, Address } from 'viem'
 import invariant from 'tiny-invariant'
-import { Currency, Percent, Token } from '@pancakeswap/sdk'
-import { MintSpecificOptions, IncreaseSpecificOptions, NonfungiblePositionManager, Position } from '@pancakeswap/v3-sdk'
+import { Currency, Percent, Token } from '@mixmarvelswap/sdk'
+import { MintSpecificOptions, IncreaseSpecificOptions, NonfungiblePositionManager, Position } from '@mixmarvelswap/v3-sdk'
 
 import { approveAndCallAbi } from '../../abis/IApproveAndCall'
 

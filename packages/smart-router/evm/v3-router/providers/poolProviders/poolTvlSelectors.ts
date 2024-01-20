@@ -1,5 +1,5 @@
-import { Currency, Token, WNATIVE } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { Currency, Token, WNATIVE } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
 import { Address } from 'viem'
 
 import { PoolSelectorConfig, V2PoolWithTvl, V3PoolWithTvl, WithTvl } from '../../types'

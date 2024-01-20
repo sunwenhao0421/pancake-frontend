@@ -1,18 +1,18 @@
-# @pancakeswap/sdk
+# @mixmarvelswap/sdk
 
 ## 5.7.5
 
 ### Patch Changes
 
 - Updated dependencies [8fcd67c85]
-  - @pancakeswap/chains@0.4.0
+  - @mixmarvelswap/chains@0.4.0
 
 ## 5.7.4
 
 ### Patch Changes
 
 - Updated dependencies [49730e609]
-  - @pancakeswap/chains@0.3.1
+  - @mixmarvelswap/chains@0.3.1
 
 ## 5.7.3
 
@@ -25,14 +25,14 @@
 ### Patch Changes
 
 - Updated dependencies [c236a3ee4]
-  - @pancakeswap/chains@0.3.0
+  - @mixmarvelswap/chains@0.3.0
 
 ## 5.7.1
 
 ### Patch Changes
 
 - Updated dependencies [ed3146c93]
-  - @pancakeswap/chains@0.2.0
+  - @mixmarvelswap/chains@0.2.0
 
 ## 5.7.0
 
@@ -49,7 +49,7 @@
 ### Patch Changes
 
 - Updated dependencies [435a90ac2]
-  - @pancakeswap/chains@0.1.0
+  - @mixmarvelswap/chains@0.1.0
 
 ## 5.5.0
 
@@ -63,7 +63,7 @@
 
 - 2d7e1b3e2: Upgraded viem
 - Updated dependencies [2d7e1b3e2]
-  - @pancakeswap/chains@0.0.1
+  - @mixmarvelswap/chains@0.0.1
 
 ## 5.4.1
 
@@ -116,7 +116,7 @@
 ### Patch Changes
 
 - Updated dependencies [b5dbd2921]
-  - @pancakeswap/swap-sdk-core@1.0.0
+  - @mixmarvelswap/swap-sdk-core@1.0.0
 
 ## 3.2.1
 
@@ -133,7 +133,7 @@
 ### Patch Changes
 
 - Updated dependencies [65fbb250a]
-  - @pancakeswap/swap-sdk-core@0.1.0
+  - @mixmarvelswap/swap-sdk-core@0.1.0
 
 ## 3.1.5
 

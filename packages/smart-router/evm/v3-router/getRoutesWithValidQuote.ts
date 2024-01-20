@@ -1,6 +1,6 @@
-import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@mixmarvelswap/sdk'
 import chunk from 'lodash/chunk.js'
-import { AbortControl } from '@pancakeswap/utils/abortControl'
+import { AbortControl } from '@mixmarvelswap/utils/abortControl'
 
 import { getAmountDistribution } from './functions'
 import { BaseRoute, GasModel, QuoteProvider, RouteWithoutQuote, RouteWithQuote } from './types'

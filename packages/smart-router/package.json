@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/smart-router",
+  "name": "@mixmarvelswap/smart-router",
   "version": "4.14.0",
   "description": "A SDK for getting best routes from AMM",
   "repository": {
@@ -23,13 +23,13 @@
     "dist"
   ],
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/multicall": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
+    "@mixmarvelswap/chains": "workspace:*",
+    "@mixmarvelswap/multicall": "workspace:*",
+    "@mixmarvelswap/sdk": "workspace:*",
+    "@mixmarvelswap/swap-sdk-core": "workspace:*",
+    "@mixmarvelswap/tokens": "workspace:*",
+    "@mixmarvelswap/token-lists": "workspace:*",
+    "@mixmarvelswap/v3-sdk": "workspace:*",
     "async-retry": "^1.3.1",
     "debug": "^4.3.4",
     "graphql": "^16.8.1",
@@ -42,8 +42,8 @@
     "zod": "^3.22.3"
   },
   "devDependencies": {
-    "@pancakeswap/tsconfig": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
+    "@mixmarvelswap/tsconfig": "workspace:*",
+    "@mixmarvelswap/utils": "workspace:*",
     "@types/async-retry": "^1.4.4",
     "@types/debug": "^4.1.7",
     "@types/lodash": "^4.14.178",

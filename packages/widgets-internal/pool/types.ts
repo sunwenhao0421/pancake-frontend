@@ -13,8 +13,8 @@ import type {
   DeserializedVaultFees,
   DeserializedVaultUser,
   DeserializedCakeVault,
-} from "@pancakeswap/pools";
-import { VaultKey } from "@pancakeswap/pools";
+} from "@mixmarvelswap/pools";
+import { VaultKey } from "@mixmarvelswap/pools";
 
 export {
   PoolCategory,

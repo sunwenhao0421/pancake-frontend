@@ -1,6 +1,6 @@
 import invariant from 'tiny-invariant'
-import { Percent, Token, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import { ChainId } from '@pancakeswap/chains'
+import { Percent, Token, CurrencyAmount } from '@mixmarvelswap/swap-sdk-core'
+import { ChainId } from '@mixmarvelswap/chains'
 import { Router } from '../src/router'
 import { Pair, Route, Trade, Native } from '../src/entities'
 import { WNATIVE } from '../src/constants'

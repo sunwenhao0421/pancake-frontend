@@ -1,5 +1,5 @@
-import { opBnbTokens } from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { opBnbTokens } from '@mixmarvelswap/tokens'
+import { FeeAmount } from '@mixmarvelswap/v3-sdk'
 
 import { defineFarmV3Configs } from '../src/defineFarmV3Configs'
 

@@ -1,6 +1,6 @@
 import invariant from 'tiny-invariant'
-import { Currency, NativeCurrency, Token } from '@pancakeswap/swap-sdk-core'
-import { ChainId } from '@pancakeswap/chains'
+import { Currency, NativeCurrency, Token } from '@mixmarvelswap/swap-sdk-core'
+import { ChainId } from '@mixmarvelswap/chains'
 import { WETH9 } from './constants'
 
 /**

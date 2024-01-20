@@ -1,4 +1,4 @@
-# @pancakeswap/chains
+# @mixmarvelswap/chains
 
 ## 0.4.0
 

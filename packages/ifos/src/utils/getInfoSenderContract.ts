@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@mixmarvelswap/sdk'
 import { getContract } from 'viem'
 
 import { isNativeIfoSupported } from './isIfoSupported'

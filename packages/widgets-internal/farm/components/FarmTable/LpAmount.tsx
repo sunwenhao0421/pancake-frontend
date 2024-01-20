@@ -1,4 +1,4 @@
-import { Skeleton } from "@pancakeswap/uikit";
+import { Skeleton } from "@mixmarvelswap/uikit";
 import { FarmTableAmountProps } from "../../types";
 import { Amount } from "../styles";
 

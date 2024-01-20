@@ -1,6 +1,6 @@
 import { describe, it } from 'vitest'
-import { FeeAmount, Pool } from '@pancakeswap/v3-sdk'
-import { bscTokens } from '@pancakeswap/tokens'
+import { FeeAmount, Pool } from '@mixmarvelswap/v3-sdk'
+import { bscTokens } from '@mixmarvelswap/tokens'
 import { getFarmsPrices } from './fetchFarmsV3'
 import { FarmV3Data } from './types'
 

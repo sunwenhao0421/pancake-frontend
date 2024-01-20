@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@mixmarvelswap/localization";
 import React, { memo } from "react";
-import type { FeeAmount } from "@pancakeswap/v3-sdk";
+import type { FeeAmount } from "@mixmarvelswap/v3-sdk";
 import {
   Text,
   TooltipText,
@@ -26,7 +26,7 @@ import {
   BaseIcon,
   ArbitrumIcon,
   AlpIcon,
-} from "@pancakeswap/uikit";
+} from "@mixmarvelswap/uikit";
 
 const CoreTag: React.FC<React.PropsWithChildren<TagProps>> = (props) => {
   const { t } = useTranslation();

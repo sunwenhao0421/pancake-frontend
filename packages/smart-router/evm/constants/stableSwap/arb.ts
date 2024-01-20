@@ -1,4 +1,4 @@
-import { arbitrumTokens } from '@pancakeswap/tokens'
+import { arbitrumTokens } from '@mixmarvelswap/tokens'
 
 import { StableSwapPool } from './types'
 

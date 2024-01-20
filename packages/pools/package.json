@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/pools",
+  "name": "@mixmarvelswap/pools",
   "version": "5.1.3",
   "sideEffects": false,
   "scripts": {
@@ -16,17 +16,17 @@
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
   "dependencies": {
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/chains": "workspace:*",
+    "@mixmarvelswap/token-lists": "workspace:*",
+    "@mixmarvelswap/tokens": "workspace:*",
+    "@mixmarvelswap/chains": "workspace:*",
     "bignumber.js": "^9.0.0",
     "lodash": "^4.17.21",
     "viem": "1.19.11",
     "wagmi": "1.4.7"
   },
   "devDependencies": {
-    "@pancakeswap/tsconfig": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
+    "@mixmarvelswap/tsconfig": "workspace:*",
+    "@mixmarvelswap/utils": "workspace:*",
     "@types/lodash": "^4.14.168",
     "tsup": "^6.7.0"
   },

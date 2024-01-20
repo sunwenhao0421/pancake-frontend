@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Balance, Button, Heading, Skeleton, Text, TooltipText, useTooltip } from "@pancakeswap/uikit";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { Balance, Button, Heading, Skeleton, Text, TooltipText, useTooltip } from "@mixmarvelswap/uikit";
 import BigNumber from "bignumber.js";
 
 import { FARMS_SMALL_AMOUNT_THRESHOLD } from "../../../constants";

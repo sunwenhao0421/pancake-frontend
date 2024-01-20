@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { Token } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
 import {
   ethereumTokens,
   bscTokens,
@@ -18,7 +18,7 @@ import {
   opBnbTokens,
   opBnbTestnetTokens,
   scrollSepoliaTokens,
-} from '@pancakeswap/tokens'
+} from '@mixmarvelswap/tokens'
 
 export const usdGasTokensByChain = {
   [ChainId.ETHEREUM]: [ethereumTokens.usdt],

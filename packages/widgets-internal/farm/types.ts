@@ -1,4 +1,4 @@
-import { Token } from "@pancakeswap/sdk";
+import { Token } from "@mixmarvelswap/sdk";
 import BigNumber from "bignumber.js";
 import { ReactNode } from "react";
 

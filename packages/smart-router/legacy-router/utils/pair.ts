@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/sdk'
+import { Currency } from '@mixmarvelswap/sdk'
 
 import { Pair, StableSwapPair } from '../types'
 

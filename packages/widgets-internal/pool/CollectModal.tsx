@@ -1,9 +1,9 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { formatNumber } from "@pancakeswap/utils/formatBalance";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { formatNumber } from "@mixmarvelswap/utils/formatBalance";
 import { useTheme } from "styled-components";
 
-import { Flex, Heading, Button, Text, AutoRenewIcon, Modal } from "@pancakeswap/uikit";
-import getThemeValue from "@pancakeswap/uikit/util/getThemeValue";
+import { Flex, Heading, Button, Text, AutoRenewIcon, Modal } from "@mixmarvelswap/uikit";
+import getThemeValue from "@mixmarvelswap/uikit/util/getThemeValue";
 
 export interface CollectModalProps {
   formattedBalance: string;

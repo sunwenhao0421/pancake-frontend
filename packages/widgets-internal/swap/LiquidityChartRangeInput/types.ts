@@ -1,5 +1,5 @@
-import { BigintIsh } from "@pancakeswap/sdk";
-import { FeeAmount } from "@pancakeswap/v3-sdk";
+import { BigintIsh } from "@mixmarvelswap/sdk";
+import { FeeAmount } from "@mixmarvelswap/v3-sdk";
 
 export interface ChartEntry {
   activeLiquidity: number;

@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/aptos-swap-sdk",
+  "name": "@mixmarvelswap/aptos-swap-sdk",
   "license": "MIT",
   "version": "1.0.1",
   "description": "🛠 An SDK for building applications on top of Pancakeswap Aptos.",
@@ -27,7 +27,7 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@pancakeswap/swap-sdk-core": "workspace:*",
+    "@mixmarvelswap/swap-sdk-core": "workspace:*",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
     "tiny-invariant": "^1.3.0",

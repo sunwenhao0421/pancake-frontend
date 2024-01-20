@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js'
 import fromPairs from 'lodash/fromPairs'
 import chunk from 'lodash/chunk'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { ChainId } from '@pancakeswap/chains'
+import { BIG_ZERO } from '@mixmarvelswap/utils/bigNumber'
+import { ChainId } from '@mixmarvelswap/chains'
 import { erc20ABI } from 'wagmi'
 
 import { BSC_BLOCK_TIME, getPoolsConfig } from '../constants'

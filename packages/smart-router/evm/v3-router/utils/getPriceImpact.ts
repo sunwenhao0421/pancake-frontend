@@ -1,4 +1,4 @@
-import { CurrencyAmount, Percent, TradeType } from '@pancakeswap/sdk'
+import { CurrencyAmount, Percent, TradeType } from '@mixmarvelswap/sdk'
 
 import { SmartRouterTrade } from '../types'
 import { getMidPrice } from './route'

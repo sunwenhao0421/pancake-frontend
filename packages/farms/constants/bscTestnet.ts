@@ -1,5 +1,5 @@
-import { bscTestnetTokens } from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { bscTestnetTokens } from '@mixmarvelswap/tokens'
+import { FeeAmount } from '@mixmarvelswap/v3-sdk'
 import { getAddress } from 'viem'
 import { SerializedFarmConfig } from '..'
 import { defineFarmV3Configs } from '../src/defineFarmV3Configs'

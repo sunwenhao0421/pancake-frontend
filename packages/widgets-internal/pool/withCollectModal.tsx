@@ -1,8 +1,8 @@
 import BigNumber from "bignumber.js";
 import { ReactElement, ReactNode } from "react";
-import { useTranslation } from "@pancakeswap/localization";
-import { getFullDisplayBalance, getBalanceNumber, formatNumber } from "@pancakeswap/utils/formatBalance";
-import { Flex, Heading, Button, Text, Skeleton, Balance, useModal } from "@pancakeswap/uikit";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { getFullDisplayBalance, getBalanceNumber, formatNumber } from "@mixmarvelswap/utils/formatBalance";
+import { Flex, Heading, Button, Text, Skeleton, Balance, useModal } from "@mixmarvelswap/uikit";
 import { CollectModalProps } from "./CollectModal";
 import { HarvestAction as TableHarvestAction } from "./PoolsTable/HarvestAction";
 import { HarvestActionsProps } from "./types";

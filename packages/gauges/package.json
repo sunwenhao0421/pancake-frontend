@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/gauges",
+  "name": "@mixmarvelswap/gauges",
   "version": "0.0.5",
   "private": true,
   "scripts": {
@@ -22,15 +22,15 @@
     "./package.json": "./package.json"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "workspace:^",
+    "@mixmarvelswap/sdk": "workspace:^",
     "@types/lodash": "^4.14.202",
     "lodash": "^4.17.21",
     "tsup": "^6.7.0"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:^",
-    "@pancakeswap/tokens": "workspace:^",
-    "@pancakeswap/v3-sdk": "workspace:^",
+    "@mixmarvelswap/chains": "workspace:^",
+    "@mixmarvelswap/tokens": "workspace:^",
+    "@mixmarvelswap/v3-sdk": "workspace:^",
     "viem": "1.19.11"
   }
 }

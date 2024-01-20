@@ -1,5 +1,5 @@
-import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
-import { AbortControl } from '@pancakeswap/utils/abortControl'
+import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@mixmarvelswap/sdk'
+import { AbortControl } from '@mixmarvelswap/utils/abortControl'
 
 import { Route } from './route'
 import { PoolProvider, QuoteProvider } from './providers'

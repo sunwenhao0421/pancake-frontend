@@ -1,6 +1,6 @@
-import { ERC20Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { goerliTestnetTokens } from '@pancakeswap/tokens'
+import { ERC20Token } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
+import { goerliTestnetTokens } from '@mixmarvelswap/tokens'
 
 import { BaseIfoConfig } from '../../types'
 

@@ -1,6 +1,6 @@
-import { BigintIsh } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { toBigInt } from '@pancakeswap/utils/toBigInt'
+import { BigintIsh } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
+import { toBigInt } from '@mixmarvelswap/utils/toBigInt'
 import { PublicClient } from 'viem'
 
 import {

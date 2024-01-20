@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Pair, Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { Currency, CurrencyAmount, Pair, Token } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
 import { Address } from 'viem'
 
 import { wrappedCurrency } from '../../evm/utils/currency'

@@ -1,5 +1,5 @@
-import { Balance, Flex, Heading, RefreshIcon } from "@pancakeswap/uikit";
-import { formatLpBalance, getBalanceNumber } from "@pancakeswap/utils/formatBalance";
+import { Balance, Flex, Heading, RefreshIcon } from "@mixmarvelswap/uikit";
+import { formatLpBalance, getBalanceNumber } from "@mixmarvelswap/utils/formatBalance";
 import { BigNumber } from "bignumber.js";
 import { useMemo } from "react";
 

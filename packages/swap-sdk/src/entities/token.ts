@@ -1,4 +1,4 @@
-import { BaseCurrency, Currency, Token } from '@pancakeswap/swap-sdk-core'
+import { BaseCurrency, Currency, Token } from '@mixmarvelswap/swap-sdk-core'
 import { Address } from 'viem'
 import invariant from 'tiny-invariant'
 import { validateAndParseAddress } from '../utils'

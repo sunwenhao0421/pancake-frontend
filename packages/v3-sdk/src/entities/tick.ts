@@ -1,5 +1,5 @@
 import invariant from 'tiny-invariant'
-import { BigintIsh } from '@pancakeswap/sdk'
+import { BigintIsh } from '@mixmarvelswap/sdk'
 
 import { TickMath } from '../utils/tickMath'
 

@@ -1,10 +1,10 @@
 import { styled } from "styled-components";
 import BigNumber from "bignumber.js";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
-import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
-import { useTranslation } from "@pancakeswap/localization";
+import { BIG_ZERO } from "@mixmarvelswap/utils/bigNumber";
+import { getBalanceNumber } from "@mixmarvelswap/utils/formatBalance";
+import { useTranslation } from "@mixmarvelswap/localization";
 
-import { Skeleton, Text, Flex, Box, Balance, useMatchBreakpoints } from "@pancakeswap/uikit";
+import { Skeleton, Text, Flex, Box, Balance, useMatchBreakpoints } from "@mixmarvelswap/uikit";
 import { DeserializedPool } from "../types";
 import { CellContent, BaseCell } from "./BaseCell";
 

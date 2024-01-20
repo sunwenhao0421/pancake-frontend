@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@mixmarvelswap/chains'
 
 const PRICE_API = 'https://alpha.wallet-api.pancakeswap.com/v1/prices/list/'
 

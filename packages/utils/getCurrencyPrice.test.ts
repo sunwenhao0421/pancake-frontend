@@ -1,4 +1,4 @@
-import { Native } from '@pancakeswap/sdk'
+import { Native } from '@mixmarvelswap/sdk'
 import { zeroAddress } from 'viem'
 import { describe, expect, it } from 'vitest'
 import { getCurrencyKey } from './getCurrencyPrice'

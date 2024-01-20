@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token } from '@pancakeswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
+import { ERC20Token } from '@mixmarvelswap/sdk'
 
 export const CAKE_MAINNET = new ERC20Token(
   ChainId.BSC,

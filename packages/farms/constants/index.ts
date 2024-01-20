@@ -1,4 +1,4 @@
-import { ChainId, getChainName } from '@pancakeswap/chains'
+import { ChainId, getChainName } from '@mixmarvelswap/chains'
 import { isStableFarm, SerializedFarmConfig, supportedChainIdV2 } from '..'
 
 let logged = false

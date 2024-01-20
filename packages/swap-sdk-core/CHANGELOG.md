@@ -1,4 +1,4 @@
-# @pancakeswap/swap-sdk-core
+# @mixmarvelswap/swap-sdk-core
 
 ## 1.0.0
 

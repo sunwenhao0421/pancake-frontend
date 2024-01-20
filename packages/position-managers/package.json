@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/position-managers",
+  "name": "@mixmarvelswap/position-managers",
   "version": "0.1.5",
   "sideEffects": false,
   "private": true,
@@ -8,11 +8,11 @@
   },
   "type": "module",
   "dependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/chains": "workspace:*",
+    "@mixmarvelswap/sdk": "workspace:*",
+    "@mixmarvelswap/v3-sdk": "workspace:*",
+    "@mixmarvelswap/token-lists": "workspace:*",
+    "@mixmarvelswap/tokens": "workspace:*",
+    "@mixmarvelswap/chains": "workspace:*",
     "bignumber.js": "^9.0.0",
     "lodash": "^4.17.21",
     "viem": "1.19.11",
@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@types/lodash": "^4.14.168",
-    "@pancakeswap/tsconfig": "workspace:*",
-    "@pancakeswap/utils": "workspace:*"
+    "@mixmarvelswap/tsconfig": "workspace:*",
+    "@mixmarvelswap/utils": "workspace:*"
   }
 }

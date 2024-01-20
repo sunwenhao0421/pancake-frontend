@@ -1,7 +1,7 @@
-import { CurrencyAmount, Currency, ERC20Token, Native, TradeType, Percent } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { CurrencyAmount, Currency, ERC20Token, Native, TradeType, Percent } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
 import { Address } from 'viem'
-import { ADDRESS_ZERO } from '@pancakeswap/v3-sdk'
+import { ADDRESS_ZERO } from '@mixmarvelswap/v3-sdk'
 import { Pool, PoolType, Route, SmartRouterTrade, StablePool, V2Pool, V3Pool } from '../types'
 import { isStablePool, isV2Pool, isV3Pool } from './pool'
 

@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Text, Skeleton } from "@pancakeswap/uikit";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { Text, Skeleton } from "@mixmarvelswap/uikit";
 import { StyledActionContainer, ActionContent, ActionTitles } from "./styles";
 
 const StakeActionDataNotReady = () => {

@@ -1,5 +1,5 @@
-import { ERC20Token, WETH9 } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token, WETH9 } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
 import { USDC, CAKE } from './common'
 
 export const zkSyncTestnetTokens = {

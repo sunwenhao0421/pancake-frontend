@@ -1,4 +1,4 @@
-import { CurrencyAmount, Currency, Percent } from '@pancakeswap/sdk'
+import { CurrencyAmount, Currency, Percent } from '@mixmarvelswap/sdk'
 
 import { getLPOutput, GetLPOutputParams } from './getLPOutput'
 

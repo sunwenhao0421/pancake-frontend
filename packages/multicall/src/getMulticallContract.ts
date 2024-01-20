@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@mixmarvelswap/chains'
 import { GetContractReturnType, PublicClient, getContract, Address } from 'viem'
 
 import { MULTICALL_ADDRESS, MULTICALL3_ADDRESSES, MULTICALL3_ADDRESS } from './constants/contracts'

@@ -1,28 +1,28 @@
-# @pancakeswap/pools
+# @mixmarvelswap/pools
 
 ## 5.1.3
 
 ### Patch Changes
 
 - Updated dependencies [205c08713]
-  - @pancakeswap/tokens@0.6.0
+  - @mixmarvelswap/tokens@0.6.0
 
 ## 5.1.2
 
 ### Patch Changes
 
 - Updated dependencies [8fcd67c85]
-  - @pancakeswap/chains@0.4.0
-  - @pancakeswap/tokens@0.5.8
-  - @pancakeswap/token-lists@0.0.9
+  - @mixmarvelswap/chains@0.4.0
+  - @mixmarvelswap/tokens@0.5.8
+  - @mixmarvelswap/token-lists@0.0.9
 
 ## 5.1.1
 
 ### Patch Changes
 
 - Updated dependencies [49730e609]
-  - @pancakeswap/chains@0.3.1
-  - @pancakeswap/tokens@0.5.7
+  - @mixmarvelswap/chains@0.3.1
+  - @mixmarvelswap/tokens@0.5.7
 
 ## 5.1.0
 
@@ -47,14 +47,14 @@
 ### Patch Changes
 
 - 2ec03f1b2: chore: Bump up gauges
-  - @pancakeswap/tokens@0.5.6
+  - @mixmarvelswap/tokens@0.5.6
 
 ## 5.0.1
 
 ### Patch Changes
 
 - Updated dependencies [2bb70e602]
-  - @pancakeswap/tokens@0.5.5
+  - @mixmarvelswap/tokens@0.5.5
 
 ## 5.0.0
 
@@ -85,16 +85,16 @@
 ### Patch Changes
 
 - Updated dependencies [c236a3ee4]
-  - @pancakeswap/chains@0.3.0
-  - @pancakeswap/tokens@0.5.4
+  - @mixmarvelswap/chains@0.3.0
+  - @mixmarvelswap/tokens@0.5.4
 
 ## 4.0.18
 
 ### Patch Changes
 
 - Updated dependencies [d994c3335]
-  - @pancakeswap/token-lists@0.0.9
-  - @pancakeswap/tokens@0.5.3
+  - @mixmarvelswap/token-lists@0.0.9
+  - @mixmarvelswap/tokens@0.5.3
 
 ## 4.0.17
 
@@ -113,22 +113,22 @@
 ### Patch Changes
 
 - Updated dependencies [ed3146c93]
-  - @pancakeswap/chains@0.2.0
-  - @pancakeswap/tokens@0.5.2
+  - @mixmarvelswap/chains@0.2.0
+  - @mixmarvelswap/tokens@0.5.2
 
 ## 4.0.14
 
 ### Patch Changes
 
-- @pancakeswap/tokens@0.5.1
+- @mixmarvelswap/tokens@0.5.1
 
 ## 4.0.13
 
 ### Patch Changes
 
 - Updated dependencies [435a90ac2]
-  - @pancakeswap/chains@0.1.0
-  - @pancakeswap/tokens@0.5.0
+  - @mixmarvelswap/chains@0.1.0
+  - @mixmarvelswap/tokens@0.5.0
 
 ## 4.0.12
 
@@ -136,7 +136,7 @@
 
 - 1831356d9: refactor: Move ChainsId usage from Sdk to Chains package
 - Updated dependencies [1831356d9]
-  - @pancakeswap/tokens@0.4.4
+  - @mixmarvelswap/tokens@0.4.4
 
 ## 4.0.11
 
@@ -145,43 +145,43 @@
 - 2d7e1b3e2: Upgraded viem
 - 67d0780d1: Add wstETH pool
 - Updated dependencies [2d7e1b3e2]
-  - @pancakeswap/sdk@5.4.2
-  - @pancakeswap/tokens@0.4.3
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/sdk@5.4.2
+  - @mixmarvelswap/tokens@0.4.3
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 4.0.10
 
 ### Patch Changes
 
 - Updated dependencies [51b77c787]
-  - @pancakeswap/tokens@0.4.2
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/tokens@0.4.2
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 4.0.9
 
 ### Patch Changes
 
 - 0641cc6ed: Add zkSync Pool
-  - @pancakeswap/token-lists@0.0.8
-  - @pancakeswap/tokens@0.4.1
+  - @mixmarvelswap/token-lists@0.0.8
+  - @mixmarvelswap/tokens@0.4.1
 
 ## 4.0.8
 
 ### Patch Changes
 
 - Updated dependencies [7a0c21e72]
-  - @pancakeswap/sdk@5.4.1
-  - @pancakeswap/tokens@0.4.1
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/sdk@5.4.1
+  - @mixmarvelswap/tokens@0.4.1
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 4.0.7
 
 ### Patch Changes
 
 - Updated dependencies [868f4d11f]
-  - @pancakeswap/sdk@5.4.0
-  - @pancakeswap/tokens@0.4.0
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/sdk@5.4.0
+  - @mixmarvelswap/tokens@0.4.0
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 4.0.6
 
@@ -194,82 +194,82 @@
 ### Patch Changes
 
 - Updated dependencies [d0f9b28a9]
-  - @pancakeswap/tokens@0.3.1
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/tokens@0.3.1
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 4.0.4
 
 ### Patch Changes
 
 - Updated dependencies [5e15c611e]
-  - @pancakeswap/sdk@5.3.0
-  - @pancakeswap/tokens@0.3.0
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/sdk@5.3.0
+  - @mixmarvelswap/tokens@0.3.0
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 4.0.3
 
 ### Patch Changes
 
 - 84b5d3743: Export es and commonjs module
-  - @pancakeswap/token-lists@0.0.8
-  - @pancakeswap/tokens@0.2.3
+  - @mixmarvelswap/token-lists@0.0.8
+  - @mixmarvelswap/tokens@0.2.3
 
 ## 4.0.2
 
 ### Patch Changes
 
 - Updated dependencies [e0a681bc6]
-  - @pancakeswap/tokens@0.2.2
-  - @pancakeswap/utils@3.0.2
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/tokens@0.2.2
+  - @mixmarvelswap/utils@3.0.2
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 4.0.1
 
 ### Patch Changes
 
 - Updated dependencies [3ba496cb1]
-  - @pancakeswap/sdk@5.2.1
-  - @pancakeswap/tokens@0.2.1
-  - @pancakeswap/utils@3.0.1
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/sdk@5.2.1
+  - @mixmarvelswap/tokens@0.2.1
+  - @mixmarvelswap/utils@3.0.1
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 4.0.0
 
 ### Patch Changes
 
 - Updated dependencies [77fc3406a]
-  - @pancakeswap/sdk@5.2.0
-  - @pancakeswap/tokens@0.2.0
-  - @pancakeswap/utils@3.0.0
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/sdk@5.2.0
+  - @mixmarvelswap/tokens@0.2.0
+  - @mixmarvelswap/utils@3.0.0
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 3.0.1
 
 ### Patch Changes
 
 - Updated dependencies [500adb4f8]
-  - @pancakeswap/tokens@0.1.6
-  - @pancakeswap/utils@2.0.3
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/tokens@0.1.6
+  - @mixmarvelswap/utils@2.0.3
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 3.0.0
 
 ### Patch Changes
 
 - Updated dependencies [f9fda4ebe]
-  - @pancakeswap/sdk@5.1.0
-  - @pancakeswap/tokens@0.1.5
-  - @pancakeswap/utils@2.0.2
-  - @pancakeswap/token-lists@0.0.8
+  - @mixmarvelswap/sdk@5.1.0
+  - @mixmarvelswap/tokens@0.1.5
+  - @mixmarvelswap/utils@2.0.2
+  - @mixmarvelswap/token-lists@0.0.8
 
 ## 2.0.1
 
 ### Patch Changes
 
 - Updated dependencies [e31475e6b]
-  - @pancakeswap/token-lists@0.0.8
-  - @pancakeswap/utils@2.0.1
-  - @pancakeswap/tokens@0.1.4
+  - @mixmarvelswap/token-lists@0.0.8
+  - @mixmarvelswap/utils@2.0.1
+  - @mixmarvelswap/tokens@0.1.4
 
 ## 2.0.0
 
@@ -280,18 +280,18 @@
 ### Patch Changes
 
 - Updated dependencies [938aa75f5]
-  - @pancakeswap/sdk@5.0.0
-  - @pancakeswap/utils@2.0.0
-  - @pancakeswap/tokens@0.1.3
-  - @pancakeswap/token-lists@0.0.7
+  - @mixmarvelswap/sdk@5.0.0
+  - @mixmarvelswap/utils@2.0.0
+  - @mixmarvelswap/tokens@0.1.3
+  - @mixmarvelswap/token-lists@0.0.7
 
 ## 1.0.0
 
 ### Patch Changes
 
 - Updated dependencies [b5dbd2921]
-  - @pancakeswap/sdk@4.0.0
-  - @pancakeswap/utils@1.0.0
-  - @pancakeswap/multicall@2.0.0
-  - @pancakeswap/tokens@0.1.2
-  - @pancakeswap/token-lists@0.0.7
+  - @mixmarvelswap/sdk@4.0.0
+  - @mixmarvelswap/utils@1.0.0
+  - @mixmarvelswap/multicall@2.0.0
+  - @mixmarvelswap/tokens@0.1.2
+  - @mixmarvelswap/token-lists@0.0.7

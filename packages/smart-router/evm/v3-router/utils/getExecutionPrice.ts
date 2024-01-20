@@ -1,4 +1,4 @@
-import { Price, TradeType, ZERO } from '@pancakeswap/sdk'
+import { Price, TradeType, ZERO } from '@mixmarvelswap/sdk'
 
 import { SmartRouterTrade } from '../types'
 

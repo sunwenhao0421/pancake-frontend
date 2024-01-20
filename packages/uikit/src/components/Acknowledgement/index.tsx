@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@mixmarvelswap/localization";
 import { Flex } from "../Box";
 import { Checkbox } from "../Checkbox";
 import { Text } from "../Text";

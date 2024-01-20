@@ -1,9 +1,9 @@
 import { useCallback, useMemo } from "react";
 import { styled, css } from "styled-components";
 
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@mixmarvelswap/localization";
 import BigNumber from "bignumber.js";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
+import { BIG_ZERO } from "@mixmarvelswap/utils/bigNumber";
 import {
   Box,
   Text,
@@ -19,7 +19,7 @@ import {
   AlpIcon,
   useMatchBreakpoints,
   useTooltip,
-} from "@pancakeswap/uikit";
+} from "@mixmarvelswap/uikit";
 
 import { DeserializedPool } from "./types";
 

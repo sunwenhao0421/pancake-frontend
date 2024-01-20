@@ -1,4 +1,4 @@
-import { BigintIsh, Currency } from '@pancakeswap/sdk'
+import { BigintIsh, Currency } from '@mixmarvelswap/sdk'
 
 import { OnChainProvider } from '../../types'
 import { getPairCombinations } from '../../functions'

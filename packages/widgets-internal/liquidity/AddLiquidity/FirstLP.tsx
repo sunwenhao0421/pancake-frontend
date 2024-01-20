@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Message, Text, Column } from "@pancakeswap/uikit";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { Message, Text, Column } from "@mixmarvelswap/uikit";
 
 export function FirstLP() {
   const { t } = useTranslation();

@@ -1,8 +1,8 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@mixmarvelswap/localization";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 import { styled } from "styled-components";
-import { Skeleton, HelpIcon, Text, TooltipRefs, useTooltip } from "@pancakeswap/uikit";
+import { Skeleton, HelpIcon, Text, TooltipRefs, useTooltip } from "@mixmarvelswap/uikit";
 import { FarmTableLiquidityProps } from "../../types";
 
 dayjs.extend(relativeTime);

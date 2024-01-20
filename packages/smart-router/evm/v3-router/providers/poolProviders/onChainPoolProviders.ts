@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BigintIsh, Currency, CurrencyAmount, Percent } from '@pancakeswap/sdk'
-import { deserializeToken } from '@pancakeswap/token-lists'
-import { DEPLOYER_ADDRESSES, FeeAmount, pancakeV3PoolABI, parseProtocolFees } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@mixmarvelswap/chains'
+import { BigintIsh, Currency, CurrencyAmount, Percent } from '@mixmarvelswap/sdk'
+import { deserializeToken } from '@mixmarvelswap/token-lists'
+import { DEPLOYER_ADDRESSES, FeeAmount, pancakeV3PoolABI, parseProtocolFees } from '@mixmarvelswap/v3-sdk'
 import { Abi, Address, ContractFunctionConfig } from 'viem'
 
 import { pancakePairABI } from '../../../abis/IPancakePair'

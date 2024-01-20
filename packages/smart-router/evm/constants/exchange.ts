@@ -1,5 +1,5 @@
-import { ERC20Token, Token, WNATIVE } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token, Token, WNATIVE } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
 import {
   bscTokens,
   bscTestnetTokens,
@@ -21,7 +21,7 @@ import {
   opBnbTestnetTokens,
   scrollSepoliaTokens,
   lineaTokens,
-} from '@pancakeswap/tokens'
+} from '@mixmarvelswap/tokens'
 
 import { ChainMap, ChainTokenList } from '../types'
 

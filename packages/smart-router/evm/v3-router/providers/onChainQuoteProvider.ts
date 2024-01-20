@@ -1,8 +1,8 @@
-import { BigintIsh, Currency, CurrencyAmount } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { BigintIsh, Currency, CurrencyAmount } from '@mixmarvelswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
 import { Abi, Address } from 'viem'
 import retry from 'async-retry'
-import { AbortControl, isAbortError } from '@pancakeswap/utils/abortControl'
+import { AbortControl, isAbortError } from '@mixmarvelswap/utils/abortControl'
 
 import {
   GasModel,

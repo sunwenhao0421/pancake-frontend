@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@mixmarvelswap/chains'
 import { CONFIG_PROD } from './prod'
 import { CONFIG_TESTNET } from './testnet'
 

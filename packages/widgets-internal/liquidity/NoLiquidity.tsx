@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { Text } from "@mixmarvelswap/uikit";
 
 export function NoLiquidity() {
   const { t } = useTranslation();

@@ -14,7 +14,7 @@ import {
   Price,
   computePriceImpact,
   sortedInsert,
-} from '@pancakeswap/swap-sdk-core'
+} from '@mixmarvelswap/swap-sdk-core'
 
 import { Pair } from './pair'
 import { Route } from './route'

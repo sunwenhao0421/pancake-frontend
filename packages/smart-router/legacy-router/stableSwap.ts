@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Pair, Percent, Price, Trade, TradeType, ERC20Token } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Pair, Percent, Price, Trade, TradeType, ERC20Token } from '@mixmarvelswap/sdk'
 import invariant from 'tiny-invariant'
 import { Address } from 'viem'
 

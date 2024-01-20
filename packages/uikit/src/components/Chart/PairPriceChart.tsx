@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@mixmarvelswap/localization";
 import dayjs from "dayjs";
 import { createChart, IChartApi, LineStyle, UTCTimestamp } from "lightweight-charts";
 import { Dispatch, SetStateAction, useCallback, useEffect, useMemo, useRef, useState } from "react";

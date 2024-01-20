@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BigintIsh, Currency } from '@pancakeswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
+import { BigintIsh, Currency } from '@mixmarvelswap/sdk'
 import memoize from 'lodash/memoize.js'
 import { Address } from 'viem'
 

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@mixmarvelswap/chains'
 import {
   arbitrumTokens,
   bscTokens,
@@ -6,8 +6,8 @@ import {
   lineaTokens,
   polygonZkEvmTokens,
   zksyncTokens,
-} from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+} from '@mixmarvelswap/tokens'
+import { FeeAmount } from '@mixmarvelswap/v3-sdk'
 import { GaugeConfig, GaugeType } from '../../types'
 
 export const CONFIG_PROD: GaugeConfig[] = [

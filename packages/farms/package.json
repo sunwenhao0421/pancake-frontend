@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/farms",
+  "name": "@mixmarvelswap/farms",
   "version": "1.0.33",
   "sideEffects": false,
   "private": true,
@@ -14,13 +14,13 @@
     "wrangler": "2.20.2"
   },
   "dependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
-    "@pancakeswap/chains": "workspace:*",
+    "@mixmarvelswap/sdk": "workspace:*",
+    "@mixmarvelswap/swap-sdk-core": "workspace:*",
+    "@mixmarvelswap/token-lists": "workspace:*",
+    "@mixmarvelswap/tokens": "workspace:*",
+    "@mixmarvelswap/utils": "workspace:*",
+    "@mixmarvelswap/v3-sdk": "workspace:*",
+    "@mixmarvelswap/chains": "workspace:*",
     "bignumber.js": "^9.0.0",
     "dayjs": "^1.11.10",
     "lodash": "^4.17.21",

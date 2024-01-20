@@ -1,4 +1,4 @@
-import { ChainId, getChainName } from '@pancakeswap/chains'
+import { ChainId, getChainName } from '@mixmarvelswap/chains'
 import { BaseIfoConfig, Ifo } from '../types'
 import { isCrossChainIfoSupportedOnly, isIfoSupported } from './isIfoSupported'
 import { getDestChains } from './getDestChains'

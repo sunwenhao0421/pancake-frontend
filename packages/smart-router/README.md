@@ -1,11 +1,11 @@
 # Pancakeswap Smart Router
 
-`@pancakeswap/smart-router` is a SDK for getting best trade routes from Pancakeswap AMM.
+`@mixmarvelswap/smart-router` is a SDK for getting best trade routes from Pancakeswap AMM.
 
 ## Install
 
 ```bash
-$ pnpm add @pancakeswap/smart-router
+$ pnpm add @mixmarvelswap/smart-router
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ For working code example, please refer to [smart-router-example](https://github.
 0. Install other dependencies
 
 ```bash
-$ pnpm add viem graphql-request @pancakeswap/sdk @pancakeswap/tokens
+$ pnpm add viem graphql-request @mixmarvelswap/sdk @mixmarvelswap/tokens
 ```
 
 1. Prepare on-chain rpc provider and subgraph providers
@@ -25,7 +25,7 @@ $ pnpm add viem graphql-request @pancakeswap/sdk @pancakeswap/tokens
 ```typescript
 import { createPublicClient, http } from 'viem'
 import { GraphQLClient } from 'graphql-request'
-import { SmartRouter } from '@pancakeswap/smart-router/evm'
+import { SmartRouter } from '@mixmarvelswap/smart-router/evm'
 
 const publicClient = createPublicClient({
   chain: mainnet,
@@ -46,9 +46,9 @@ const quoteProvider = SmartRouter.createQuoteProvider({ onChainProvider: () => p
 2. Get candidate pools
 
 ```typescript
-import { Native } from '@pancakeswap/sdk'
-import { SmartRouter } from '@pancakeswap/smart-router/evm'
-import { bscTokens } from '@pancakeswap/tokens'
+import { Native } from '@mixmarvelswap/sdk'
+import { SmartRouter } from '@mixmarvelswap/smart-router/evm'
+import { bscTokens } from '@mixmarvelswap/tokens'
 
 const swapFrom = Native.onChain(chainId)
 const swapTo = bscTokens.cake
@@ -73,7 +73,7 @@ const [v2Pools, v3Pools] = await Promise.all([
 3. Find the best swap trade route
 
 ```typescript
-import { CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { CurrencyAmount, TradeType } from '@mixmarvelswap/sdk'
 
 // 0.01 BNB in our example
 const amount = CurrencyAmount.fromRawAmount(swapFrom, 10 ** 16)
@@ -91,8 +91,8 @@ const trade = await SmartRouter.getBestTrade(amount, swapTo, TradeType.EXACT_INP
 4. Build the swap transaction from trade
 
 ```typescript
-import { ChainId } from '@pancakeswap/chains'
-import { SmartRouter, SmartRouterTrade, SMART_ROUTER_ADDRESSES, SwapRouter } from '@pancakeswap/smart-router/evm'
+import { ChainId } from '@mixmarvelswap/chains'
+import { SmartRouter, SmartRouterTrade, SMART_ROUTER_ADDRESSES, SwapRouter } from '@mixmarvelswap/smart-router/evm'
 import { hexToBigInt } from 'viem'
 
 const routerAddress = SMART_ROUTER_ADDRESSES[ChainId.BSC]

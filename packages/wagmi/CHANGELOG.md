@@ -1,4 +1,4 @@
-# @pancakeswap/wagmi
+# @mixmarvelswap/wagmi
 
 ## 2.0.3
 

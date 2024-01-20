@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token, WBNB } from '@pancakeswap/sdk'
+import { ChainId } from '@mixmarvelswap/chains'
+import { ERC20Token, WBNB } from '@mixmarvelswap/sdk'
 
 import { BUSD_BSC, CAKE_MAINNET, USDT_BSC } from './common'
 

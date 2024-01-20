@@ -1,5 +1,5 @@
-import { bscTokens } from '@pancakeswap/tokens'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { bscTokens } from '@mixmarvelswap/tokens'
+import { FeeAmount } from '@mixmarvelswap/v3-sdk'
 import { Strategy, VaultConfig } from '../../types'
 import { MANAGER } from '../managers'
 

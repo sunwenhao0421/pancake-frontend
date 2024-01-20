@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Text, Button } from "@pancakeswap/uikit";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { Text, Button } from "@mixmarvelswap/uikit";
 import { StyledActionContainer, ActionContent, ActionTitles } from "./styles";
 
 export interface StakeComponentProps {

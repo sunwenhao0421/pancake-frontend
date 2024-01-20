@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@mixmarvelswap/chains'
 import { Address } from 'viem'
 
 import { SupportedChainId } from './supportedChains'

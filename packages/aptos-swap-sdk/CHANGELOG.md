@@ -1,4 +1,4 @@
-# @pancakeswap/aptos-swap-sdk
+# @mixmarvelswap/aptos-swap-sdk
 
 ## 1.0.1
 
@@ -15,7 +15,7 @@
 ### Patch Changes
 
 - Updated dependencies [b5dbd2921]
-  - @pancakeswap/swap-sdk-core@1.0.0
+  - @mixmarvelswap/swap-sdk-core@1.0.0
 
 ## 0.0.2
 

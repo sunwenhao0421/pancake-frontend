@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Pair, ZERO } from '@pancakeswap/sdk'
-import { Pool as V3Pool, TickList } from '@pancakeswap/v3-sdk'
+import { Currency, CurrencyAmount, Pair, ZERO } from '@mixmarvelswap/sdk'
+import { Pool as V3Pool, TickList } from '@mixmarvelswap/v3-sdk'
 import {
   Pool as IPool,
   Pool,

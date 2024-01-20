@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/v3-sdk",
+  "name": "@mixmarvelswap/v3-sdk",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -26,10 +26,10 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/chains": "workspace:*",
+    "@mixmarvelswap/sdk": "workspace:*",
+    "@mixmarvelswap/swap-sdk-core": "workspace:*",
+    "@mixmarvelswap/tokens": "workspace:*",
+    "@mixmarvelswap/chains": "workspace:*",
     "@uniswap/v3-staker": "1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
@@ -39,7 +39,7 @@
     "viem": "1.19.11"
   },
   "devDependencies": {
-    "@pancakeswap/utils": "workspace:*",
+    "@mixmarvelswap/utils": "workspace:*",
     "tsup": "^6.7.0"
   },
   "engines": {
