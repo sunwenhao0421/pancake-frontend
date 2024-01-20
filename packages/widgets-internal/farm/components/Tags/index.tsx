@@ -1,32 +1,32 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import React, { memo } from "react";
-import type { FeeAmount } from "@mixmarvelswap/v3-sdk";
 import {
-  Text,
-  TooltipText,
+  AlpIcon,
+  ArbitrumIcon,
+  AutoRenewIcon,
+  BaseIcon,
+  BinanceChainIcon,
+  BlockIcon,
+  CheckmarkCircleIcon,
+  CommunityIcon,
+  CurrencyIcon,
+  EthChainIcon,
+  LineaIcon,
+  LockIcon,
+  RefreshIcon,
+  RocketIcon,
   Tag,
   TagProps,
-  useTooltip,
-  AutoRenewIcon,
-  BlockIcon,
-  CommunityIcon,
-  RefreshIcon,
+  Text,
   TimerIcon,
+  TooltipText,
   VerifiedIcon,
   VoteIcon,
-  LockIcon,
-  RocketIcon,
-  CheckmarkCircleIcon,
-  CurrencyIcon,
-  BinanceChainIcon,
-  EthChainIcon,
   ZkEVMIcon,
   ZkSyncIcon,
-  LineaIcon,
-  BaseIcon,
-  ArbitrumIcon,
-  AlpIcon,
+  useTooltip,
 } from "@mixmarvelswap/uikit";
+import type { FeeAmount } from "@mixmarvelswap/v3-sdk";
+import React, { memo } from "react";
 
 const CoreTag: React.FC<React.PropsWithChildren<TagProps>> = (props) => {
   const { t } = useTranslation();

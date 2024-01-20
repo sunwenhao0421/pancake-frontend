@@ -2,7 +2,7 @@ import { Currency } from "@mixmarvelswap/sdk";
 import { FeeAmount, TICK_SPACINGS, tickToPrice } from "@mixmarvelswap/v3-sdk";
 import { useMemo } from "react";
 
-import { ChartEntry, TickProcessed, TickDataRaw } from "./types";
+import { ChartEntry, TickDataRaw, TickProcessed } from "./types";
 import { computeSurroundingTicks } from "./utils";
 
 const PRICE_FIXED_DIGITS = 8;

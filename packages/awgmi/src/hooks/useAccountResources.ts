@@ -1,4 +1,8 @@
-import { fetchAccountResources, FetchAccountResourcesArgs, FetchAccountResourcesResult } from '@mixmarvelswap/awgmi/core'
+import {
+  fetchAccountResources,
+  FetchAccountResourcesArgs,
+  FetchAccountResourcesResult,
+} from '@mixmarvelswap/awgmi/core'
 
 import { QueryConfig, QueryFunctionArgs } from '../types'
 import { useNetwork } from './useNetwork'

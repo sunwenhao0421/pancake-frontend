@@ -1,6 +1,6 @@
 import { memo, useCallback } from "react";
 
-import { Flex, Checkbox } from "@mixmarvelswap/uikit";
+import { Checkbox, Flex } from "@mixmarvelswap/uikit";
 
 interface Props {
   on?: boolean;

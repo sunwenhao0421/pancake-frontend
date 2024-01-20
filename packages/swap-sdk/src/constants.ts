@@ -1,5 +1,5 @@
-import { Percent } from '@mixmarvelswap/swap-sdk-core'
 import { ChainId } from '@mixmarvelswap/chains'
+import { Percent } from '@mixmarvelswap/swap-sdk-core'
 import { Address, Hash } from 'viem'
 import { ERC20Token } from './entities/token'
 
@@ -28,6 +28,8 @@ export const FACTORY_ADDRESS_MAP = {
   [ChainId.BASE]: '0x02a84c1b3BBD7401a5f7fa98a384EBC70bB5749E',
   [ChainId.BASE_TESTNET]: '0x715303D2eF7dA7FFAbF637651D71FD11d41fAf7F',
   [ChainId.SCROLL_SEPOLIA]: '0x2B3C5df29F73dbF028BA82C33e0A5A6e5800F75e',
+  [ChainId.MANTLE]: '0x25780dc8Fc3cfBD75F33bFDAB65e969b603b2035',
+  [ChainId.MANTLE_TESTNET]: '0x503Ca2ad7C9C70F4157d14CF94D3ef5Fa96D7032',
 } as const satisfies Record<ChainId, Address>
 
 export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
@@ -51,6 +53,8 @@ export const INIT_CODE_HASH_MAP = {
   [ChainId.BASE]: INIT_CODE_HASH_ETH,
   [ChainId.BASE_TESTNET]: '0xa5934690703a592a07e841ca29d5e5c79b5e22ed4749057bb216dc31100be1c0',
   [ChainId.SCROLL_SEPOLIA]: INIT_CODE_HASH_ETH,
+  [ChainId.MANTLE]: '0xaf9bd540c3449b723624376f906d8d3a0e6441ff18b847f05f4f85789ab64d9a',
+  [ChainId.MANTLE_TESTNET]: '0xaf9bd540c3449b723624376f906d8d3a0e6441ff18b847f05f4f85789ab64d9a',
 } as const satisfies Record<ChainId, Hash>
 
 export const WETH9 = {
@@ -190,6 +194,22 @@ export const WETH9 = {
     'Wrapped Ether',
     'https://weth.io'
   ),
+  [ChainId.MANTLE]: new ERC20Token(
+    ChainId.MANTLE,
+    '0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8',
+    18,
+    'WMNT',
+    'Wrapped Ether',
+    'https://weth.io'
+  ),
+  [ChainId.MANTLE_TESTNET]: new ERC20Token(
+    ChainId.MANTLE_TESTNET,
+    '0xEa12Be2389c2254bAaD383c6eD1fa1e15202b52A',
+    18,
+    'WMNT',
+    'Wrapped Ether',
+    'https://weth.io'
+  ),
 }
 
 export const WBNB = {
@@ -233,6 +253,22 @@ export const WBNB = {
     'Wrapped BNB',
     'https://www.binance.org'
   ),
+  [ChainId.MANTLE]: new ERC20Token(
+    ChainId.MANTLE,
+    '0xe2DB835566F8677d6889ffFC4F3304e8Df5Fc1df',
+    18,
+    'WMNT',
+    'Wrapped MNT',
+    'https://www.binance.org'
+  ),
+  [ChainId.MANTLE_TESTNET]: new ERC20Token(
+    ChainId.MANTLE_TESTNET,
+    '0x78c1b0C915c4FAA5FffA6CAbf0219DA63d7f4cb8',
+    18,
+    'WMNT',
+    'Wrapped MNT',
+    'https://www.binance.org'
+  ),
 }
 
 export const WNATIVE = {
@@ -253,6 +289,8 @@ export const WNATIVE = {
   [ChainId.BASE]: WETH9[ChainId.BASE],
   [ChainId.BASE_TESTNET]: WETH9[ChainId.BASE_TESTNET],
   [ChainId.SCROLL_SEPOLIA]: WETH9[ChainId.SCROLL_SEPOLIA],
+  [ChainId.MANTLE]: WETH9[ChainId.MANTLE],
+  [ChainId.MANTLE_TESTNET]: WETH9[ChainId.MANTLE_TESTNET],
 } satisfies Record<ChainId, ERC20Token>
 
 const ETHER = { name: 'Ether', symbol: 'ETH', decimals: 18 } as const
@@ -292,6 +330,8 @@ export const NATIVE = {
   [ChainId.BASE]: ETHER,
   [ChainId.BASE_TESTNET]: ETHER,
   [ChainId.SCROLL_SEPOLIA]: ETHER,
+  [ChainId.MANTLE]: ETHER,
+  [ChainId.MANTLE_TESTNET]: ETHER,
 } satisfies Record<
   ChainId,
   {

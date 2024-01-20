@@ -1,5 +1,5 @@
-import { ERC20Token } from '@mixmarvelswap/sdk'
 import { ChainId } from '@mixmarvelswap/chains'
+import { ERC20Token } from '@mixmarvelswap/sdk'
 import { goerliTestnetTokens } from '@mixmarvelswap/tokens'
 
 import { BaseIfoConfig } from '../../types'

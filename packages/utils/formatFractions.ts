@@ -1,4 +1,4 @@
-import { Percent, Fraction, Price, Currency, CurrencyAmount } from '@mixmarvelswap/swap-sdk-core'
+import { Currency, CurrencyAmount, Fraction, Percent, Price } from '@mixmarvelswap/swap-sdk-core'
 
 export function formatPercent(percent?: Percent, precision?: number) {
   return percent ? formatFraction(percent.asFraction.multiply(100), precision) : undefined

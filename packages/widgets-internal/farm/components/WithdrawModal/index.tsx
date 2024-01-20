@@ -1,20 +1,20 @@
-import BigNumber from "bignumber.js";
-import { useCallback, useMemo, useState } from "react";
 import { useTranslation } from "@mixmarvelswap/localization";
-import { getFullDisplayBalance } from "@mixmarvelswap/utils/formatBalance";
-import { trimTrailZero } from "@mixmarvelswap/utils/trimTrailZero";
-import { BIG_ZERO } from "@mixmarvelswap/utils/bigNumber";
 import {
-  Button,
   AutoRenewIcon,
+  Box,
+  Button,
   Message,
   MessageText,
-  Box,
   Modal,
-  ModalBody,
   ModalActions,
+  ModalBody,
   ModalInput,
 } from "@mixmarvelswap/uikit";
+import { BIG_ZERO } from "@mixmarvelswap/utils/bigNumber";
+import { getFullDisplayBalance } from "@mixmarvelswap/utils/formatBalance";
+import { trimTrailZero } from "@mixmarvelswap/utils/trimTrailZero";
+import BigNumber from "bignumber.js";
+import { useCallback, useMemo, useState } from "react";
 
 interface WithdrawModalProps {
   max: BigNumber;

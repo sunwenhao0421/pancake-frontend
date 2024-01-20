@@ -1,9 +1,9 @@
-import { ReactNode } from "react";
 import { useTranslation } from "@mixmarvelswap/localization";
+import { Button, Flex, Text } from "@mixmarvelswap/uikit";
+import { ReactNode } from "react";
 import { styled } from "styled-components";
-import { Text, Button, Flex } from "@mixmarvelswap/uikit";
 
-import { ActionTitles, ActionContent } from "./styles";
+import { ActionContent, ActionTitles } from "./styles";
 
 const ActionContainer = styled.div`
   padding: 16px;

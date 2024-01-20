@@ -1,3 +1,12 @@
+/*
+ * @Author: mouse
+ * @Date: 2024-01-19 19:57:25
+ * @LastEditTime: 2024-01-19 22:47:55
+ * @LastEditors: mouse
+ * @Description:
+ * @FilePath: /pancake-frontend-develop/packages/chains/src/subgraphs.ts
+ * @project:
+ */
 import { ChainId } from './chainId'
 
 type SubgraphParams = {
@@ -35,6 +44,8 @@ export function getV3Subgraphs({ noderealApiKey }: SubgraphParams) {
     [ChainId.OPBNB]: `https://open-platform-ap.nodereal.io/${noderealApiKey}/opbnb-mainnet-graph-query/subgraphs/name/pancakeswap/exchange-v3`,
     [ChainId.OPBNB_TESTNET]: null,
     [ChainId.SCROLL_SEPOLIA]: 'https://api.studio.thegraph.com/query/45376/exchange-v3-scroll-sepolia/version/latest',
+    [ChainId.MANTLE]: 'https://agni.finance/graph/subgraphs/name/agni/exchange-v3',
+    [ChainId.MANTLE_TESTNET]: 'https://testnet.agni.finance/graph/subgraphs/name/agni/exchange-v3',
   } satisfies Record<ChainId, string | null>
 }
 
@@ -50,6 +61,8 @@ export function getV2Subgraphs({ noderealApiKey }: SubgraphParams) {
     [ChainId.LINEA]: 'https://graph-query.linea.build/subgraphs/name/pancakeswap/exhange-v2',
     [ChainId.BASE]: 'https://api.studio.thegraph.com/query/45376/exchange-v2-base/version/latest',
     [ChainId.OPBNB]: `https://open-platform-ap.nodereal.io/${noderealApiKey}/opbnb-mainnet-graph-query/subgraphs/name/pancakeswap/exchange-v2`,
+    [ChainId.MANTLE]: 'https://agni.finance/graph/subgraphs/name/agni/exchange-v2',
+    [ChainId.MANTLE_TESTNET]: 'https://testnet.agni.finance/graph/subgraphs/name/agni/exchange-v2',
   }
 }
 
@@ -63,5 +76,7 @@ export function getBlocksSubgraphs({ noderealApiKey }: SubgraphParams) {
     [ChainId.LINEA]: 'https://graph-query.linea.build/subgraphs/name/kybernetwork/linea-blocks',
     [ChainId.BASE]: 'https://api.studio.thegraph.com/query/48211/base-blocks/version/latest',
     [ChainId.OPBNB]: `https://open-platform-ap.nodereal.io/${noderealApiKey}/opbnb-mainnet-graph-query/subgraphs/name/pancakeswap/blocks`,
+    [ChainId.MANTLE]: 'https://agni.finance/graph/subgraphs/name/agni/blocks',
+    [ChainId.MANTLE_TESTNET]: 'https://testnet.agni.finance/graph/subgraphs/name/agni/blocks',
   }
 }

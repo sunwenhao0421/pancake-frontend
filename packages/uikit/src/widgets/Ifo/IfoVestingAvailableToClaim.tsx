@@ -1,7 +1,7 @@
-import { useMemo } from "react";
-import BigNumber from "bignumber.js";
 import { useTranslation } from "@mixmarvelswap/localization";
 import { getFullDisplayBalance } from "@mixmarvelswap/utils/formatBalance";
+import BigNumber from "bignumber.js";
+import { useMemo } from "react";
 import { Text } from "../../components/Text";
 
 interface IfoVestingAvailableToClaimProps {

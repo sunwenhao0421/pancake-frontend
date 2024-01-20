@@ -1,23 +1,23 @@
-import { styled } from "styled-components";
-import { ReactNode } from "react";
 import { useTranslation } from "@mixmarvelswap/localization";
+import { ReactNode } from "react";
+import { styled } from "styled-components";
 //  should be ok to import type from sdk
-import type { FeeAmount } from "@mixmarvelswap/v3-sdk";
 import {
-  Text,
-  Button,
-  Flex,
-  ModalContainer,
-  ModalCloseButton,
-  ModalBody,
-  ModalActions,
-  ModalProps,
   AtomBox,
   AutoColumn,
   AutoRow,
+  Button,
+  Flex,
+  ModalActions,
+  ModalBody,
+  ModalCloseButton,
+  ModalContainer,
+  ModalProps,
   RowBetween,
   Tag,
+  Text,
 } from "@mixmarvelswap/uikit";
+import type { FeeAmount } from "@mixmarvelswap/v3-sdk";
 import Tags from "../Tags";
 
 const { BoostedTag, FarmAuctionTag, V3FeeTag } = Tags;

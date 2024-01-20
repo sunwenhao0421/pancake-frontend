@@ -1,3 +1,12 @@
+/*
+ * @Author: mouse
+ * @Date: 2024-01-19 19:57:25
+ * @LastEditTime: 2024-01-19 23:32:55
+ * @LastEditors: mouse
+ * @Description:
+ * @FilePath: /constants/gasModel/index.ts
+ * @project:
+ */
 import { Token } from '@mixmarvelswap/sdk'
 import { ChainId } from '@mixmarvelswap/chains'
 import {
@@ -38,6 +47,8 @@ export const usdGasTokensByChain = {
   [ChainId.BASE]: [baseTokens.usdc],
   [ChainId.BASE_TESTNET]: [baseTestnetTokens.usdc],
   [ChainId.SCROLL_SEPOLIA]: [scrollSepoliaTokens.usdc],
+  [ChainId.MANTLE]: [scrollSepoliaTokens.usdc],
+  [ChainId.MANTLE_TESTNET]: [scrollSepoliaTokens.usdc],
 } satisfies Record<ChainId, Token[]>
 
 export * from './v2'

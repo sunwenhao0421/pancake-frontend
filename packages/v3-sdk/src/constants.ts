@@ -1,3 +1,12 @@
+/*
+ * @Author: mouse
+ * @Date: 2024-01-19 19:57:25
+ * @LastEditTime: 2024-01-19 23:08:16
+ * @LastEditors: mouse
+ * @Description:
+ * @FilePath: /pancake-frontend-develop/packages/v3-sdk/src/constants.ts
+ * @project:
+ */
 import { ChainId } from '@mixmarvelswap/chains'
 import { Address, Hash } from 'viem'
 
@@ -24,6 +33,8 @@ export const FACTORY_ADDRESSES = {
   [ChainId.BASE]: FACTORY_ADDRESS,
   [ChainId.BASE_TESTNET]: '0x618f16159d489AA7761168F0200b7705dee9e2C0',
   [ChainId.SCROLL_SEPOLIA]: '0x5A6919Dfd2C761788608b0D1bd1239961ADCB08B',
+  [ChainId.MANTLE]: '0x25780dc8Fc3cfBD75F33bFDAB65e969b603b2035',
+  [ChainId.MANTLE_TESTNET]: '0x503Ca2ad7C9C70F4157d14CF94D3ef5Fa96D7032',
 } as const satisfies Record<ChainId, Address>
 
 const DEPLOYER_ADDRESS = '0x41ff9AA7e16B8B1a8a8dc4f0eFacd93D02d071c9'
@@ -46,6 +57,8 @@ export const DEPLOYER_ADDRESSES = {
   [ChainId.BASE]: DEPLOYER_ADDRESS,
   [ChainId.BASE_TESTNET]: '0x5A6919Dfd2C761788608b0D1bd1239961ADCB08B',
   [ChainId.SCROLL_SEPOLIA]: '0xC259d1D3476558630d83b0b60c105ae958382792',
+  [ChainId.MANTLE]: '0xe9827B4EBeB9AE41FC57efDdDd79EDddC2EA4d03',
+  [ChainId.MANTLE_TESTNET]: '0x0B7e80F0e664ae80bbE0c56f7908ef14f5898b1d',
 } as const satisfies Record<ChainId, Address>
 
 export const ADDRESS_ZERO = '0x0000000000000000000000000000000000000000'
@@ -70,6 +83,8 @@ export const POOL_INIT_CODE_HASHES = {
   [ChainId.BASE]: POOL_INIT_CODE_HASH,
   [ChainId.BASE_TESTNET]: POOL_INIT_CODE_HASH,
   [ChainId.SCROLL_SEPOLIA]: POOL_INIT_CODE_HASH,
+  [ChainId.MANTLE]: '0xaf9bd540c3449b723624376f906d8d3a0e6441ff18b847f05f4f85789ab64d9a',
+  [ChainId.MANTLE_TESTNET]: '0xaf9bd540c3449b723624376f906d8d3a0e6441ff18b847f05f4f85789ab64d9a',
 } as const satisfies Record<ChainId, Hash>
 
 /**

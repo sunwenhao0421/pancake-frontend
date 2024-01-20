@@ -1,6 +1,6 @@
+import { Currency, NativeCurrency, Token } from '@mixmarvelswap/swap-sdk-core'
 import invariant from 'tiny-invariant'
-import { Currency, Token, NativeCurrency } from '@mixmarvelswap/swap-sdk-core'
-import { WNATIVE, NATIVE } from '../constants'
+import { NATIVE, WNATIVE } from '../constants'
 
 /**
  *

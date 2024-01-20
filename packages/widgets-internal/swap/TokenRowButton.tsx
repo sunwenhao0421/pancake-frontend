@@ -1,6 +1,6 @@
-import { styled } from "styled-components";
 import { useTranslation } from "@mixmarvelswap/localization";
-import { Button, RowFixed, Text, CheckmarkCircleIcon, useMatchBreakpoints } from "@mixmarvelswap/uikit";
+import { Button, CheckmarkCircleIcon, RowFixed, Text, useMatchBreakpoints } from "@mixmarvelswap/uikit";
+import { styled } from "styled-components";
 
 const CheckIcon = styled(CheckmarkCircleIcon)`
   height: 16px;

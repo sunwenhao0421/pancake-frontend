@@ -1,6 +1,6 @@
 {
   "name": "@mixmarvelswap/gauges",
-  "version": "0.0.5",
+  "version": "10.0.0",
   "private": true,
   "scripts": {
     "dev": "tsup --watch",

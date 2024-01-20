@@ -1,26 +1,26 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { useCallback, useEffect, useState, useMemo, memo } from "react";
 import { Currency, CurrencyAmount, ONE_HUNDRED_PERCENT, ZERO_PERCENT } from "@mixmarvelswap/sdk";
-import { FeeCalculator, encodeSqrtRatioX96 } from "@mixmarvelswap/v3-sdk";
-import { styled } from "styled-components";
 import { CAKE } from "@mixmarvelswap/tokens";
-import { Box, Row, AutoColumn, Toggle, RowBetween, Message } from "@mixmarvelswap/uikit";
+import { AutoColumn, Box, Message, Row, RowBetween, Toggle } from "@mixmarvelswap/uikit";
+import { FeeCalculator, encodeSqrtRatioX96 } from "@mixmarvelswap/v3-sdk";
+import { memo, useCallback, useEffect, useMemo, useState } from "react";
+import { styled } from "styled-components";
 import { DoubleCurrencyLogo } from "../components/CurrencyLogo";
 
-import { Section } from "./Section";
 import {
-  AssetCard,
   Asset,
-  CardSection,
-  SectionTitle,
-  InterestDisplay,
+  AssetCard,
   AssetRow,
-  CurrencyLogoDisplay,
+  CardSection,
   CardTag,
+  CurrencyLogoDisplay,
+  InterestDisplay,
+  SectionTitle,
 } from "./AssetCard";
-import { floatToPercent, toToken0Price } from "./utils";
-import { TwoColumns } from "./TwoColumns";
 import { EditableAssets } from "./EditableAssets";
+import { Section } from "./Section";
+import { TwoColumns } from "./TwoColumns";
+import { floatToPercent, toToken0Price } from "./utils";
 
 const Container = styled(Box)`
   background: ${({ theme }) => theme.colors.background};

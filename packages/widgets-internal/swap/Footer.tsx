@@ -1,7 +1,7 @@
+import { useTranslation } from "@mixmarvelswap/localization";
+import { Button, Flex, Image, LinkExternal, Svg } from "@mixmarvelswap/uikit";
 import { memo, ReactNode } from "react";
 import { styled } from "styled-components";
-import { useTranslation } from "@mixmarvelswap/localization";
-import { LinkExternal, Flex, Svg, Image, Button } from "@mixmarvelswap/uikit";
 
 const Wrapper = styled.div<{ $isSide: boolean }>`
   width: 100%;

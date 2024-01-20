@@ -1,5 +1,5 @@
-import BigNumber from "bignumber.js";
 import { useTranslation } from "@mixmarvelswap/localization";
+import BigNumber from "bignumber.js";
 import { Text, TextProps } from "../../components/Text";
 
 interface IfoPercentageOfTotalProps extends TextProps {

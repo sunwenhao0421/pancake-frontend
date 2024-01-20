@@ -1,6 +1,6 @@
 import { Language } from "../LangSelector/types";
+import { DiscordIcon, GithubIcon, InstagramIcon, RedditIcon, TelegramIcon, TwitterIcon, YoutubeIcon } from "../Svg";
 import { FooterLinkType } from "./types";
-import { TwitterIcon, TelegramIcon, RedditIcon, InstagramIcon, GithubIcon, DiscordIcon, YoutubeIcon } from "../Svg";
 
 export const footerLinks: FooterLinkType[] = [
   {

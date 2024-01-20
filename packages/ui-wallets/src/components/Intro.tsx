@@ -1,11 +1,11 @@
 import { Trans } from '@mixmarvelswap/localization'
 import { AtomBox, Button, Heading, Image, LinkExternal, Text } from '@mixmarvelswap/uikit'
-import { useState, useCallback } from 'react'
+import { useCallback, useState } from 'react'
 import 'swiper/css'
 import 'swiper/css/autoplay'
+import { Autoplay } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import type { Swiper as SwiperClass } from 'swiper/types'
-import { Autoplay } from 'swiper/modules'
 
 const IntroSteps = [
   {

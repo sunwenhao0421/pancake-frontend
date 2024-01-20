@@ -1,8 +1,8 @@
 import { Currency, CurrencyAmount, Price } from "@mixmarvelswap/sdk";
+import { formatAmount, formatPrice } from "@mixmarvelswap/utils/formatFractions";
 import tryParseAmount from "@mixmarvelswap/utils/tryParseAmount";
 import { FeeCalculator, TickMath } from "@mixmarvelswap/v3-sdk";
-import { useCallback, useMemo, useState, useEffect } from "react";
-import { formatPrice, formatAmount } from "@mixmarvelswap/utils/formatFractions";
+import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { getTokenAmountsFromDepositUsd } from "../utils";
 

@@ -1,6 +1,6 @@
+import { Box, HelpIcon } from "@mixmarvelswap/uikit";
 import Image from "next/image";
 import { memo } from "react";
-import { HelpIcon, Box } from "@mixmarvelswap/uikit";
 import { SpaceProps } from "styled-system";
 
 export const ChainLogo = memo(

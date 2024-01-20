@@ -1,17 +1,17 @@
 import { useTranslation } from "@mixmarvelswap/localization";
 import { Currency, Price } from "@mixmarvelswap/swap-sdk-core";
-import { FeeAmount } from "@mixmarvelswap/v3-sdk";
-import { styled, useTheme } from "styled-components";
-import { useCallback, useMemo } from "react";
-import { format } from "d3";
-import * as Sentry from "@sentry/nextjs";
-import { saturate } from "polished";
 import { AutoColumn, BunnyKnownPlaceholder, ChartDisableIcon, LineGraphIcon } from "@mixmarvelswap/uikit";
+import { FeeAmount } from "@mixmarvelswap/v3-sdk";
+import * as Sentry from "@sentry/nextjs";
+import { format } from "d3";
+import { saturate } from "polished";
+import { useCallback, useMemo } from "react";
+import { styled, useTheme } from "styled-components";
 
-import { Bound, ChartEntry, TickDataRaw, ZOOM_LEVELS, ZoomLevels } from "./types";
+import { Chart } from "./Chart";
 import { InfoBox } from "./InfoBox";
 import Loader from "./Loader";
-import { Chart } from "./Chart";
+import { Bound, ChartEntry, TickDataRaw, ZOOM_LEVELS, ZoomLevels } from "./types";
 
 const ChartWrapper = styled.div`
   position: relative;

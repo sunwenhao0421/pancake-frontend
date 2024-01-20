@@ -1,6 +1,6 @@
 import { atoms } from '@mixmarvelswap/uikit/css/atoms'
 import { responsiveStyle } from '@mixmarvelswap/uikit/css/responsiveStyle'
-import { style, keyframes } from '@vanilla-extract/css'
+import { keyframes, style } from '@vanilla-extract/css'
 
 const promotedGradientKf = keyframes({
   '0%': {

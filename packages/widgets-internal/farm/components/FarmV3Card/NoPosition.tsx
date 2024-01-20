@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
 import { useTranslation } from "@mixmarvelswap/localization";
-import { Text, Button, Flex } from "@mixmarvelswap/uikit";
+import { Button, Flex, Text } from "@mixmarvelswap/uikit";
+import { ReactNode } from "react";
 
 interface NoPositionProps {
   inactive: boolean;

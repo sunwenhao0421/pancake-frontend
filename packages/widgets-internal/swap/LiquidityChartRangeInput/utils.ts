@@ -1,7 +1,7 @@
 import { Token } from "@mixmarvelswap/sdk";
 import { tickToPrice } from "@mixmarvelswap/v3-sdk";
 
-import { TickProcessed, TickDataRaw } from "./types";
+import { TickDataRaw, TickProcessed } from "./types";
 
 const PRICE_FIXED_DIGITS = 8;
 

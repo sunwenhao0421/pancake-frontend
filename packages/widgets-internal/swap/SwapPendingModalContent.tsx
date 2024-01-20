@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
 import { Currency } from "@mixmarvelswap/sdk";
-import { Spinner, Text, Box, ArrowUpIcon, ColumnCenter, AutoColumn } from "@mixmarvelswap/uikit";
+import { ArrowUpIcon, AutoColumn, Box, ColumnCenter, Spinner, Text } from "@mixmarvelswap/uikit";
+import { ReactNode } from "react";
 import TokenTransferInfo from "./TokenTransferInfo";
 
 interface SwapPendingModalContentProps {

@@ -1,8 +1,8 @@
-import { useRef, memo, useCallback, ReactNode } from "react";
 import { useTranslation } from "@mixmarvelswap/localization";
+import { ReactNode, memo, useCallback, useRef } from "react";
 
 import { Button, Flex } from "@mixmarvelswap/uikit";
-import { CardSection, SectionTitle, AssetCard, AssetCardProps } from "./AssetCard";
+import { AssetCard, AssetCardProps, CardSection, SectionTitle } from "./AssetCard";
 
 interface Props extends AssetCardProps {
   title?: ReactNode;

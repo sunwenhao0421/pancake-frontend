@@ -1,11 +1,11 @@
-import noop from "lodash/noop";
 import type { Language } from "@mixmarvelswap/localization";
-import { vi } from "vitest";
+import noop from "lodash/noop";
 import { BrowserRouter } from "react-router-dom";
+import { vi } from "vitest";
+import { SubMenuItemsType } from "../../components";
+import { footerLinks } from "../../components/Footer/config";
 import { renderWithProvider } from "../../testHelpers";
 import { Menu, menuConfig } from "../../widgets/Menu";
-import { footerLinks } from "../../components/Footer/config";
-import { SubMenuItemsType } from "../../components";
 
 /**
  * @see https://jestjs.io/docs/en/manual-mocks

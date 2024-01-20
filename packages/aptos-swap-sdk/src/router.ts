@@ -1,18 +1,18 @@
 import { Percent, TradeType } from '@mixmarvelswap/swap-sdk-core'
+import { Currency } from './currency'
 import {
-  routerSwapExactInput,
   routerAddLiquidity,
   routerRemoveLiquidity,
+  routerSwapExactInput,
   routerSwapExactInputDoublehop,
+  routerSwapExactInputQuadruplehop,
   routerSwapExactInputTriplehop,
   routerSwapExactOutput,
   routerSwapExactOutputDoublehop,
-  routerSwapExactOutputTriplehop,
-  routerSwapExactInputQuadruplehop,
   routerSwapExactOutputQuadruplehop,
+  routerSwapExactOutputTriplehop,
 } from './generated/swap'
 import { Trade } from './trade'
-import { Currency } from './currency'
 
 export interface TradeOptions {
   /**

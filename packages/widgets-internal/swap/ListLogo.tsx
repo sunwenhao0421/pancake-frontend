@@ -1,6 +1,6 @@
-import { styled } from "styled-components";
 import { useHttpLocations } from "@mixmarvelswap/hooks";
 import { TokenLogo } from "@mixmarvelswap/uikit";
+import { styled } from "styled-components";
 
 const StyledListLogo = styled(TokenLogo)<{ size: string }>`
   width: ${({ size }) => size};

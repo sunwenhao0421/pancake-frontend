@@ -1,8 +1,8 @@
-import { CSSProperties, ReactElement } from "react";
-import { BaseCurrency } from "@mixmarvelswap/swap-sdk-core";
 import { useTranslation } from "@mixmarvelswap/localization";
-import { styled } from "styled-components";
+import { BaseCurrency } from "@mixmarvelswap/swap-sdk-core";
 import { AutoColumn, AutoRow, Button, Flex, RowFixed, Text, useMatchBreakpoints } from "@mixmarvelswap/uikit";
+import { CSSProperties, ReactElement } from "react";
+import { styled } from "styled-components";
 import { ListLogo } from "./ListLogo";
 
 const TokenSection = styled.div<{ dim?: boolean }>`

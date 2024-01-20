@@ -1,3 +1,12 @@
+/*
+ * @Author: mouse
+ * @Date: 2024-01-19 19:57:25
+ * @LastEditTime: 2024-01-19 22:42:41
+ * @LastEditors: mouse
+ * @Description:
+ * @FilePath: /pancake-frontend-develop/packages/chains/src/chainNames.ts
+ * @project:
+ */
 import { ChainId } from './chainId'
 
 export const chainNames: Record<ChainId, string> = {
@@ -18,6 +27,8 @@ export const chainNames: Record<ChainId, string> = {
   [ChainId.BASE]: 'base',
   [ChainId.BASE_TESTNET]: 'baseTestnet',
   [ChainId.SCROLL_SEPOLIA]: 'scrollSepolia',
+  [ChainId.MANTLE]: 'mantle',
+  [ChainId.MANTLE_TESTNET]: 'mantleTestnet',
 }
 
 export const chainNameToChainId = Object.entries(chainNames).reduce((acc, [chainId, chainName]) => {
@@ -47,4 +58,6 @@ export const defiLlamaChainNames: Record<ChainId, string> = {
   [ChainId.SCROLL_SEPOLIA]: '',
   [ChainId.LINEA]: 'linea',
   [ChainId.BASE]: 'base',
+  [ChainId.MANTLE]: '',
+  [ChainId.MANTLE_TESTNET]: '',
 }

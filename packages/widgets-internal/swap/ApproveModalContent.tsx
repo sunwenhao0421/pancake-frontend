@@ -1,5 +1,5 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { Spinner, Text, Box, Flex, TooltipText, AutoColumn, ColumnCenter, useTooltip } from "@mixmarvelswap/uikit";
+import { AutoColumn, Box, ColumnCenter, Flex, Spinner, Text, TooltipText, useTooltip } from "@mixmarvelswap/uikit";
 
 interface ApproveModalContentProps {
   title: string;

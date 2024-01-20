@@ -1,7 +1,7 @@
-import { styled } from "styled-components";
-import { useTranslation } from "@mixmarvelswap/localization";
 import { PositionDetails } from "@mixmarvelswap/farms";
-import { PreTitle, Text, Button, Flex, Box } from "@mixmarvelswap/uikit";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { Box, Button, Flex, PreTitle, Text } from "@mixmarvelswap/uikit";
+import { styled } from "styled-components";
 
 const LightGreyCard = styled("div")`
   padding: 0;

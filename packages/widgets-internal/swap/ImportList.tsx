@@ -1,8 +1,19 @@
-import { useTranslation } from "@mixmarvelswap/localization";
 import { useTheme } from "@mixmarvelswap/hooks";
+import { useTranslation } from "@mixmarvelswap/localization";
+import {
+  AutoColumn,
+  Box,
+  Button,
+  Checkbox,
+  Flex,
+  Link,
+  Message,
+  RowBetween,
+  RowFixed,
+  Text,
+} from "@mixmarvelswap/uikit";
 import { useState } from "react";
 import { styled } from "styled-components";
-import { AutoColumn, Flex, Link, Text, Checkbox, Button, Message, Box, RowBetween, RowFixed } from "@mixmarvelswap/uikit";
 import { ListLogo } from "./ListLogo";
 
 interface ImportProps {

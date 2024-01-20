@@ -1,10 +1,10 @@
-import { Currency } from "@mixmarvelswap/sdk";
 import { ChainId } from "@mixmarvelswap/chains";
+import { useHttpLocations } from "@mixmarvelswap/hooks";
+import { Currency } from "@mixmarvelswap/sdk";
+import { BinanceIcon, TokenLogo } from "@mixmarvelswap/uikit";
 import { useMemo } from "react";
 import { styled } from "styled-components";
 import { space, SpaceProps } from "styled-system";
-import { useHttpLocations } from "@mixmarvelswap/hooks";
-import { TokenLogo, BinanceIcon } from "@mixmarvelswap/uikit";
 
 import { getCurrencyLogoUrls } from "./utils";
 

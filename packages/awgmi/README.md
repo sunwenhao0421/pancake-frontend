@@ -3,6 +3,7 @@
 Connect to Aptos with similar [wagmi](https://github.com/wagmi-dev/wagmi) React hooks.
 
 Support Aptos Wallet Connectors:
+
 - Petra
 - Martian
 - Pontem
@@ -10,22 +11,15 @@ Support Aptos Wallet Connectors:
 - SafePal
 - Trust Wallet
 
-
 ```jsx
-import {
-  createClient,
-  AwgmiConfig,
-  useConnect,
-  getDefaultProviders,
-  defaultChains,
-} from '@mixmarvelswap/awgmi';
+import { createClient, AwgmiConfig, useConnect, getDefaultProviders, defaultChains } from '@mixmarvelswap/awgmi'
 import { PetraConnector } from '@mixmarvelswap/awgmi/connectors/petra'
 import { MartianConnector } from '@mixmarvelswap/awgmi/connectors/martain'
 import { SafePalConnector } from '@mixmarvelswap/awgmi/connectors/safePal'
 import { BloctoConnector } from '@mixmarvelswap/awgmi/connectors/blocto'
 import { FewchaConnector } from '@mixmarvelswap/awgmi/connectors/fewcha'
 
- // import { mainnet, testnet } from '@mixmarvelswap/awgmi/core'
+// import { mainnet, testnet } from '@mixmarvelswap/awgmi/core'
 const chains = defaultChains // mainnet, testnet, devnet
 
 export const client = createClient({
@@ -39,8 +33,7 @@ export const client = createClient({
   ],
   provider: getDefaultProviders,
   autoConnect: true,
-});
-
+})
 
 function App() {
   return (
@@ -51,8 +44,8 @@ function App() {
 }
 ```
 
-
 ## Connector
+
 ```jsx
 import { useConnect, useDisconnect } from '@mixmarvelswap/awgmi'
 
@@ -71,8 +64,8 @@ function ConnectButton() {
 }
 ```
 
-
 ## Hooks
+
 ```jsx
 import {
   useAccountBalance,
@@ -89,15 +82,17 @@ import {
 ```
 
 ### Balance
+
 ```js
 const { data } = useAccountBalance({
   address: Address,
   coin: '0x1::aptos_coin::AptosCoin',
-  watch: true
+  watch: true,
 })
 ```
 
 ### Send Transaction
+
 ```js
 import { UserRejectedRequestError } from '@mixmarvelswap/awgmi'
 
@@ -110,7 +105,7 @@ sendTransactionAsync({
     arguments: ['are we gonna make it?'],
     type_arguments: [],
   },
-}).catch(err => {
+}).catch((err) => {
   if (err instanceof UserRejectedRequestError) {
     // handle user reject
   }

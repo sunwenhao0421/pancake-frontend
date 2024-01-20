@@ -1,5 +1,5 @@
 import { ChainId, getChainName } from '@mixmarvelswap/chains'
-import { isStableFarm, SerializedFarmConfig, supportedChainIdV2 } from '..'
+import { SerializedFarmConfig, isStableFarm, supportedChainIdV2 } from '..'
 
 let logged = false
 

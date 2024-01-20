@@ -1,6 +1,6 @@
-import { WETH9, ERC20Token } from '@mixmarvelswap/sdk'
 import { ChainId } from '@mixmarvelswap/chains'
-import { USDC, CAKE } from './common'
+import { ERC20Token, WETH9 } from '@mixmarvelswap/sdk'
+import { CAKE, USDC } from './common'
 
 export const lineaTestnetTokens = {
   weth: WETH9[ChainId.LINEA_TESTNET],

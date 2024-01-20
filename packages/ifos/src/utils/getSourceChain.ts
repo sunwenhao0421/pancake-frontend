@@ -1,7 +1,7 @@
 import { ChainId } from '@mixmarvelswap/chains'
 
-import { isIfoSupported, isNativeIfoSupported } from './isIfoSupported'
 import { SOURCE_CHAIN_MAP } from '../constants'
+import { isIfoSupported, isNativeIfoSupported } from './isIfoSupported'
 
 export function getSourceChain(chainId?: ChainId): ChainId | undefined {
   if (!isIfoSupported(chainId)) {

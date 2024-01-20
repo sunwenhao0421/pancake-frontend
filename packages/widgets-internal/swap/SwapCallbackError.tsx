@@ -1,5 +1,5 @@
-import { styled } from "styled-components";
 import { ErrorIcon } from "@mixmarvelswap/uikit";
+import { styled } from "styled-components";
 
 const SwapCallbackErrorInner = styled.div`
   background-color: ${({ theme }) => `${theme.colors.failure33}`};

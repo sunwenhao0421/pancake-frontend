@@ -1,9 +1,9 @@
-import React, { useState } from "react";
 import { LanguageProvider } from "@mixmarvelswap/localization";
 import { CurrencyAmount, Price } from "@mixmarvelswap/sdk";
 import { ethereumTokens } from "@mixmarvelswap/tokens";
-import { FeeAmount } from "@mixmarvelswap/v3-sdk";
 import { Button, MatchBreakpointsProvider } from "@mixmarvelswap/uikit";
+import { FeeAmount } from "@mixmarvelswap/v3-sdk";
+import React, { useState } from "react";
 import mockData from "swap/LiquidityChartRangeInput/mockData.json";
 
 import { RoiCalculator } from "./RoiCalculator";

@@ -3,11 +3,11 @@ import { memo } from "react";
 
 import { Flex, Text } from "@mixmarvelswap/uikit";
 import {
+  MILLION,
   RoiCardInner,
   RoiCardWrapper,
-  RoiDollarAmount,
   RoiDisplayContainer,
-  MILLION,
+  RoiDollarAmount,
   TRILLION,
 } from "@mixmarvelswap/uikit/components/RoiCalculatorModal/RoiCard";
 

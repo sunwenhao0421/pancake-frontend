@@ -1,5 +1,5 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { RowBetween, AutoColumn, Text, Card, CardBody } from "@mixmarvelswap/uikit";
+import { AutoColumn, Card, CardBody, RowBetween, Text } from "@mixmarvelswap/uikit";
 import { formatUnixTimestamp } from "@mixmarvelswap/utils/formatTimestamp";
 import BigNumber from "bignumber.js";
 import dayjs from "dayjs";

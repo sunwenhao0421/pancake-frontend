@@ -1,7 +1,7 @@
-import { ReactNode } from "react";
 import { useTranslation } from "@mixmarvelswap/localization";
-import { Text, IconButton, MinusIcon, AddIcon } from "@mixmarvelswap/uikit";
-import { StyledActionContainer, ActionContent, ActionTitles, IconButtonWrapper } from "./styles";
+import { AddIcon, IconButton, MinusIcon, Text } from "@mixmarvelswap/uikit";
+import { ReactNode } from "react";
+import { ActionContent, ActionTitles, IconButtonWrapper, StyledActionContainer } from "./styles";
 
 export interface StakedActionComponentProps {
   lpSymbol: string;

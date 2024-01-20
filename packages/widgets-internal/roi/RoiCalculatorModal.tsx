@@ -1,8 +1,8 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { styled } from "styled-components";
 import { Modal, ModalV2, ModalV2Props } from "@mixmarvelswap/uikit";
+import { styled } from "styled-components";
 
-import { RoiCalculatorProps, RoiCalculator } from "./RoiCalculator";
+import { RoiCalculator, RoiCalculatorProps } from "./RoiCalculator";
 
 export const StyledModal = styled(Modal)`
   & > :nth-child(2) {

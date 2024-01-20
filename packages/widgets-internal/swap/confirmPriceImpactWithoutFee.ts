@@ -1,5 +1,5 @@
-import { Percent } from "@mixmarvelswap/swap-sdk-core";
 import { ContextApi } from "@mixmarvelswap/localization";
+import { Percent } from "@mixmarvelswap/swap-sdk-core";
 
 /**
  * Given the price impact, get user confirmation.

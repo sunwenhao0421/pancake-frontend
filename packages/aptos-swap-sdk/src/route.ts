@@ -1,8 +1,8 @@
 /* eslint-disable no-return-assign */
-import invariant from 'tiny-invariant'
 import { Price } from '@mixmarvelswap/swap-sdk-core'
-import { Pair } from './pair'
+import invariant from 'tiny-invariant'
 import { Currency } from './currency'
+import { Pair } from './pair'
 
 export class Route<TInput extends Currency, TOutput extends Currency> {
   public readonly pairs: Pair[]

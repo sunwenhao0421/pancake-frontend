@@ -1,6 +1,6 @@
-import BN from 'bignumber.js'
-import { parseNumberToFraction, formatFraction } from '@mixmarvelswap/utils/formatFractions'
 import { BigintIsh, ZERO } from '@mixmarvelswap/sdk'
+import { formatFraction, parseNumberToFraction } from '@mixmarvelswap/utils/formatFractions'
+import BN from 'bignumber.js'
 
 type BigNumberish = BN | number | string
 

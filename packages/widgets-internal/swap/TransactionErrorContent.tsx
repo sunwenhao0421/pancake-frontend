@@ -1,7 +1,7 @@
-import { ReactElement } from "react";
 import { useTranslation } from "@mixmarvelswap/localization";
+import { AutoColumn, Button, ErrorIcon, Flex, Text } from "@mixmarvelswap/uikit";
+import { ReactElement } from "react";
 import { styled } from "styled-components";
-import { AutoColumn, ErrorIcon, Text, Flex, Button } from "@mixmarvelswap/uikit";
 
 const Wrapper = styled.div`
   width: 100%;

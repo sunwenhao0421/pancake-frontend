@@ -1,8 +1,7 @@
 {
   "name": "@mixmarvelswap/blog",
-  "version": "0.0.1",
+  "version": "10.0.0",
   "sideEffects": false,
-  "private": true,
   "scripts": {
     "test": "vitest --run"
   },

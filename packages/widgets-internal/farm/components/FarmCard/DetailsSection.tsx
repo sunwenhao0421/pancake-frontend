@@ -1,17 +1,17 @@
-import { ReactElement } from "react";
+import { ChainId } from "@mixmarvelswap/chains";
 import { useTranslation } from "@mixmarvelswap/localization";
-import { styled } from "styled-components";
 import {
+  FarmMultiplierInfo,
   Flex,
+  HelpIcon,
   LinkExternal,
   ScanLink,
   Skeleton,
   Text,
-  HelpIcon,
   useTooltip,
-  FarmMultiplierInfo,
 } from "@mixmarvelswap/uikit";
-import { ChainId } from "@mixmarvelswap/chains";
+import { ReactElement } from "react";
+import { styled } from "styled-components";
 
 export interface ExpandableSectionProps {
   scanAddress?: { link: string; chainId?: number; icon?: ReactElement };

@@ -1,4 +1,4 @@
-import { styled, DefaultTheme, css } from "styled-components";
+import { DefaultTheme, css, styled } from "styled-components";
 
 import { Input } from "@mixmarvelswap/uikit";
 import getThemeValue from "@mixmarvelswap/uikit/util/getThemeValue";

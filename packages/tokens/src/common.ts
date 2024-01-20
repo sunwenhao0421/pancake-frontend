@@ -350,6 +350,21 @@ export const USDT = {
     'Tether USD',
   ),
   [ChainId.LINEA]: new ERC20Token(ChainId.LINEA, '0xA219439258ca9da29E9Cc4cE5596924745e12B93', 6, 'USDT', 'Tether USD'),
+
+  [ChainId.MANTLE]: new ERC20Token(
+    ChainId.MANTLE,
+    '0x201EBa5CC46D216Ce6DC03F6a759e8E766e956aE',
+    6,
+    'USDT',
+    'Tether USD',
+  ),
+  [ChainId.MANTLE_TESTNET]: new ERC20Token(
+    ChainId.MANTLE,
+    '0x3e163F861826C3f7878bD8fa8117A179d80731Ab',
+    6,
+    'USDT',
+    'Tether USD',
+  ),
 }
 
 export const WBTC_ETH = new ERC20Token(
@@ -378,4 +393,6 @@ export const STABLE_COIN = {
   [ChainId.BASE]: USDC[ChainId.BASE],
   [ChainId.BASE_TESTNET]: USDC[ChainId.BASE_TESTNET],
   [ChainId.SCROLL_SEPOLIA]: USDC[ChainId.SCROLL_SEPOLIA],
+  [ChainId.MANTLE]: USDT[ChainId.MANTLE],
+  [ChainId.MANTLE_TESTNET]: USDT[ChainId.MANTLE_TESTNET],
 } satisfies Record<ChainId, ERC20Token>

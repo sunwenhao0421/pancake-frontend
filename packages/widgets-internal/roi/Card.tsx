@@ -1,6 +1,6 @@
-import { styled } from "styled-components";
-import type {} from "csstype";
 import { Box } from "@mixmarvelswap/uikit";
+import type {} from "csstype";
+import { styled } from "styled-components";
 
 export const Card = styled(Box)<{
   width?: string;

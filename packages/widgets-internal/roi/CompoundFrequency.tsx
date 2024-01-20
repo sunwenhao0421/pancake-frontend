@@ -1,7 +1,7 @@
 import { useTranslation } from "@mixmarvelswap/localization";
 import { memo, useCallback, useMemo } from "react";
 
-import { ButtonMenuItem, Flex, Checkbox } from "@mixmarvelswap/uikit";
+import { ButtonMenuItem, Checkbox, Flex } from "@mixmarvelswap/uikit";
 import { FullWidthButtonMenu } from "./FullWidthButtonMenu";
 
 export const FREQUENCIES = ["12h", "1d", "7d", "30d"];

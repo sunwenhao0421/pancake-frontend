@@ -1,5 +1,5 @@
-import { Token } from '@mixmarvelswap/sdk'
 import { ChainId } from '@mixmarvelswap/chains'
+import { Token } from '@mixmarvelswap/sdk'
 
 import { usdGasTokensByChain } from '../../constants'
 

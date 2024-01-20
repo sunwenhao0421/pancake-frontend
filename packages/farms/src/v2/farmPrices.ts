@@ -1,8 +1,8 @@
 import { BIG_ONE, BIG_TWO, BIG_ZERO } from '@mixmarvelswap/utils/bigNumber'
-import BN from 'bignumber.js'
 import { equalsIgnoreCase } from '@mixmarvelswap/utils/equalsIgnoreCase'
+import BN from 'bignumber.js'
 import toNumber from 'lodash/toNumber'
-import { SerializedFarmPublicData, FarmData, isStableFarm } from '../types'
+import { FarmData, SerializedFarmPublicData, isStableFarm } from '../types'
 import { getFullDecimalMultiplier } from './getFullDecimalMultiplier'
 
 // Find BUSD price for token

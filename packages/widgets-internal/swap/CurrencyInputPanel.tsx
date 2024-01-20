@@ -1,4 +1,4 @@
-import { Text, AtomBox, SwapCSS } from "@mixmarvelswap/uikit";
+import { AtomBox, SwapCSS, Text } from "@mixmarvelswap/uikit";
 
 import { NumericalInput, NumericalInputProps } from "./NumericalInput";
 

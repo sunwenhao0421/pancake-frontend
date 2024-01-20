@@ -1,9 +1,9 @@
+import { useTranslation } from "@mixmarvelswap/localization";
 import { Currency } from "@mixmarvelswap/sdk";
 import { memo } from "react";
-import { useTranslation } from "@mixmarvelswap/localization";
 import { styled } from "styled-components";
 
-import { Flex, Text, Button, SyncAltIcon } from "@mixmarvelswap/uikit";
+import { Button, Flex, SyncAltIcon, Text } from "@mixmarvelswap/uikit";
 
 const StyledButton = styled(Button)`
   border-radius: 8px;

@@ -1,9 +1,9 @@
-import BigNumber from 'bignumber.js'
 import { getLanguageCodeFromLS } from '@mixmarvelswap/localization'
+import BigNumber from 'bignumber.js'
 import _trimEnd from 'lodash/trimEnd'
+import { BIG_ZERO } from './bigNumber'
 import { getFullDecimalMultiplier } from './getFullDecimalMultiplier'
 import { formatUnits } from './viem/formatUnits'
-import { BIG_ZERO } from './bigNumber'
 
 /**
  * Take a formatted amount, e.g. 15 BNB and convert it to full decimal value, e.g. 15000000000000000

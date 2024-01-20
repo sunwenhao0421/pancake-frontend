@@ -1,7 +1,7 @@
-import { Price, Currency } from "@mixmarvelswap/swap-sdk-core";
+import { Currency, Price } from "@mixmarvelswap/swap-sdk-core";
+import { AtomBox, AutoRenewIcon, Loading, SwapCSS, SyncAltIcon, Text } from "@mixmarvelswap/uikit";
 import { formatPrice } from "@mixmarvelswap/utils/formatFractions";
 import { useState } from "react";
-import { AtomBox, SyncAltIcon, AutoRenewIcon, Text, Loading, SwapCSS } from "@mixmarvelswap/uikit";
 
 interface TradePriceProps {
   price?: Price<Currency, Currency>;

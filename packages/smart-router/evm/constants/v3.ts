@@ -1,3 +1,12 @@
+/*
+ * @Author: mouse
+ * @Date: 2024-01-19 19:57:25
+ * @LastEditTime: 2024-01-19 23:54:27
+ * @LastEditors: mouse
+ * @Description:
+ * @FilePath: /pancake-frontend-develop/packages/smart-router/evm/constants/v3.ts
+ * @project:
+ */
 import { ChainId } from '@mixmarvelswap/chains'
 import { Address } from 'viem'
 
@@ -25,6 +34,8 @@ export const MIXED_ROUTE_QUOTER_ADDRESSES = {
   [ChainId.BASE]: '0x4c650FB471fe4e0f476fD3437C3411B1122c4e3B',
   [ChainId.BASE_TESTNET]: '0x9d4277f1D41CCB30C0e91f7d1bBA2A739E19032C',
   [ChainId.SCROLL_SEPOLIA]: '0x9d4277f1D41CCB30C0e91f7d1bBA2A739E19032C',
+  [ChainId.MANTLE]: '0x9488C05a7b75a6FefdcAE4f11a33467bcBA60177',
+  [ChainId.MANTLE_TESTNET]: '0x49C8bb51C6bb791e8D6C31310cE0C14f68492991',
 } as const satisfies Record<ChainId, Address>
 
 export const V3_QUOTER_ADDRESSES = {
@@ -45,4 +56,6 @@ export const V3_QUOTER_ADDRESSES = {
   [ChainId.BASE]: '0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997',
   [ChainId.BASE_TESTNET]: '0x6cc56b20bf8C4FfD58050D15AbA2978A745CC691',
   [ChainId.SCROLL_SEPOLIA]: '0x6cc56b20bf8C4FfD58050D15AbA2978A745CC691',
+  [ChainId.MANTLE]: '0x9488C05a7b75a6FefdcAE4f11a33467bcBA60177',
+  [ChainId.MANTLE_TESTNET]: '0x49C8bb51C6bb791e8D6C31310cE0C14f68492991',
 } as const satisfies Record<ChainId, Address>

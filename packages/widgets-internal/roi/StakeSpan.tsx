@@ -1,5 +1,5 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { useMemo, memo } from "react";
+import { memo, useMemo } from "react";
 
 import { ButtonMenuItem } from "@mixmarvelswap/uikit";
 import { FullWidthButtonMenu } from "./FullWidthButtonMenu";

@@ -1,7 +1,7 @@
+import { AutoRenewIcon, Box, ZoomInIcon, ZoomOutIcon } from "@mixmarvelswap/uikit";
 import { ScaleLinear, select, zoom, ZoomBehavior, zoomIdentity, ZoomTransform } from "d3";
 import { useEffect, useMemo, useRef } from "react";
 import { styled } from "styled-components";
-import { ZoomInIcon, ZoomOutIcon, AutoRenewIcon, Box } from "@mixmarvelswap/uikit";
 
 import { ZoomLevels } from "./types";
 

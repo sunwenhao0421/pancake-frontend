@@ -1,6 +1,6 @@
 {
   "name": "@mixmarvelswap/prediction",
-  "version": "0.0.5",
+  "version": "10.0.0",
   "sideEffects": false,
   "private": true,
   "scripts": {

@@ -1,8 +1,8 @@
+import { useTranslation } from "@mixmarvelswap/localization";
+import { SwapCSS } from "@mixmarvelswap/uikit";
+import { escapeRegExp } from "@mixmarvelswap/utils/escapeRegExp";
 import clsx from "clsx";
 import { memo } from "react";
-import { useTranslation } from "@mixmarvelswap/localization";
-import { escapeRegExp } from "@mixmarvelswap/utils/escapeRegExp";
-import { SwapCSS } from "@mixmarvelswap/uikit";
 
 const inputRegex = RegExp(`^\\d*(?:\\\\[.])?\\d*$`); // match escaped "." characters via in a non-capturing group
 

@@ -1,7 +1,7 @@
-import { styled } from "styled-components";
 import { useTranslation } from "@mixmarvelswap/localization";
-import { Text } from "../Text";
+import { styled } from "styled-components";
 import { ArrowBackIcon, ArrowForwardIcon } from "../Svg";
+import { Text } from "../Text";
 
 export const PageButtons = styled.div`
   width: 100%;

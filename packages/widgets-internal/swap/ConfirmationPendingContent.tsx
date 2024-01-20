@@ -1,6 +1,6 @@
 import { useTranslation } from "@mixmarvelswap/localization";
+import { AutoColumn, ColumnCenter, Spinner, Text } from "@mixmarvelswap/uikit";
 import { styled } from "styled-components";
-import { Spinner, Text, ColumnCenter, AutoColumn } from "@mixmarvelswap/uikit";
 
 const Wrapper = styled.div`
   width: 100%;

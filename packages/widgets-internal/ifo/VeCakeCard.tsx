@@ -1,9 +1,9 @@
-import { styled } from "styled-components";
-import { Card, CardHeader, Flex, Text, QuestionHelper, FlexGap, CardBody } from "@mixmarvelswap/uikit";
 import { useTranslation } from "@mixmarvelswap/localization";
-import { PropsWithChildren, ReactNode, useMemo } from "react";
+import { Card, CardBody, CardHeader, Flex, FlexGap, QuestionHelper, Text } from "@mixmarvelswap/uikit";
 import { BigNumber } from "bignumber.js";
 import Image from "next/image";
+import { PropsWithChildren, ReactNode, useMemo } from "react";
+import { styled } from "styled-components";
 
 import { BalanceDisplay } from "./BalanceDisplay";
 

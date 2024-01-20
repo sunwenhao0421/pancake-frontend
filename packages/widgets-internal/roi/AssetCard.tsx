@@ -1,25 +1,25 @@
 import { useTranslation } from "@mixmarvelswap/localization";
 import { Currency, Percent } from "@mixmarvelswap/sdk";
-import { memo, PropsWithChildren, ReactNode, useCallback, Ref, MouseEvent } from "react";
+import { formatAmount } from "@mixmarvelswap/utils/formatInfoNumbers";
+import { MouseEvent, PropsWithChildren, ReactNode, Ref, memo, useCallback } from "react";
 import { styled } from "styled-components";
 import { SpaceProps } from "styled-system";
-import { formatAmount } from "@mixmarvelswap/utils/formatInfoNumbers";
 
 import {
-  Flex,
   Box,
   Card,
+  Flex,
+  PencilIcon,
   Row,
   RowBetween,
   RowFixed,
   Table,
+  Tag,
+  TagProps,
   Td,
   Text,
   Th,
-  PencilIcon,
   useMatchBreakpoints,
-  Tag,
-  TagProps,
 } from "@mixmarvelswap/uikit";
 import { CurrencyLogo } from "../components/CurrencyLogo";
 

@@ -1,5 +1,5 @@
 import { Currency } from "@mixmarvelswap/sdk";
-import { Text, Box, Flex, ArrowForwardIcon } from "@mixmarvelswap/uikit";
+import { ArrowForwardIcon, Box, Flex, Text } from "@mixmarvelswap/uikit";
 import { CurrencyLogo } from "../components/CurrencyLogo";
 
 interface TokenTransferInfoProps {

@@ -1,5 +1,5 @@
-import { getAddress } from 'viem'
 import { lineaTestnetTokens } from '@mixmarvelswap/tokens'
+import { getAddress } from 'viem'
 import { PoolCategory, SerializedPool } from '../../types'
 
 export const livePools: SerializedPool[] = [

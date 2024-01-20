@@ -1,11 +1,11 @@
 import { useTranslation } from "@mixmarvelswap/localization";
 import { Percent, ZERO_PERCENT } from "@mixmarvelswap/sdk";
-import { formatAmount } from "@mixmarvelswap/utils/formatInfoNumbers";
-import { useState, ReactNode, memo } from "react";
-import { styled } from "styled-components";
+import { Box, ExpandableLabel, Flex, Grid, Text } from "@mixmarvelswap/uikit";
+import { BulletList, Footer } from "@mixmarvelswap/uikit/components/RoiCalculatorModal/RoiCalculatorFooter";
 import { formatPercent } from "@mixmarvelswap/utils/formatFractions";
-import { ExpandableLabel, Box, Grid, Text, Flex } from "@mixmarvelswap/uikit";
-import { Footer, BulletList } from "@mixmarvelswap/uikit/components/RoiCalculatorModal/RoiCalculatorFooter";
+import { formatAmount } from "@mixmarvelswap/utils/formatInfoNumbers";
+import { ReactNode, memo, useState } from "react";
+import { styled } from "styled-components";
 
 const StyledFooter = styled(Footer)`
   border-radius: 16px;

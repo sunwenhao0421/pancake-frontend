@@ -1,6 +1,6 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { Text, Button } from "@mixmarvelswap/uikit";
-import { StyledActionContainer, ActionContent, ActionTitles } from "./styles";
+import { Button, Text } from "@mixmarvelswap/uikit";
+import { ActionContent, ActionTitles, StyledActionContainer } from "./styles";
 
 export interface StakeComponentProps {
   lpSymbol: string;

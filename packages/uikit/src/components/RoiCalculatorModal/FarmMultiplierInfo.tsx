@@ -1,5 +1,5 @@
-import { styled } from "styled-components";
 import { useTranslation } from "@mixmarvelswap/localization";
+import { styled } from "styled-components";
 import { Link } from "../Link";
 import { Text } from "../Text";
 

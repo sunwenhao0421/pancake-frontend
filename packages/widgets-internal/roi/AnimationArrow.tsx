@@ -1,6 +1,6 @@
-import { useState, useEffect } from "react";
-import { styled, keyframes } from "styled-components";
-import { Flex, ArrowDownIcon } from "@mixmarvelswap/uikit";
+import { ArrowDownIcon, Flex } from "@mixmarvelswap/uikit";
+import { useEffect, useState } from "react";
+import { keyframes, styled } from "styled-components";
 
 const rotate = keyframes`
   0% {

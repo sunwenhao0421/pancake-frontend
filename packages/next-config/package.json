@@ -1,6 +1,6 @@
 {
   "name": "@mixmarvelswap/next-config",
-  "version": "0.0.1",
+  "version": "10.0.0",
   "sideEffects": false,
   "private": true,
   "type": "module",

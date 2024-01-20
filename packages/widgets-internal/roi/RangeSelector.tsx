@@ -1,5 +1,5 @@
-import { Currency, Price } from "@mixmarvelswap/sdk";
 import { useTranslation } from "@mixmarvelswap/localization";
+import { Currency, Price } from "@mixmarvelswap/sdk";
 import { formatPrice } from "@mixmarvelswap/utils/formatFractions";
 import { memo } from "react";
 

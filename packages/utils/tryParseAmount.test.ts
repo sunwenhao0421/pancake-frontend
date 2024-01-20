@@ -1,5 +1,5 @@
 import { Token } from '@mixmarvelswap/swap-sdk-core'
-import { describe, it, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 import tryParseAmount from './tryParseAmount'
 
 describe('utils/tryParseAmount', () => {

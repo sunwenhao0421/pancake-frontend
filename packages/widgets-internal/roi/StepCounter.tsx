@@ -1,7 +1,7 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { FeeAmount } from "@mixmarvelswap/v3-sdk";
-import { ReactNode, useCallback, useEffect, useState, memo } from "react";
 import { AddCircleIcon, AutoColumn, AutoRow, IconButton, RemoveIcon } from "@mixmarvelswap/uikit";
+import { FeeAmount } from "@mixmarvelswap/v3-sdk";
+import { ReactNode, memo, useCallback, useEffect, useState } from "react";
 
 import { NumericalInput } from "../swap/NumericalInput";
 import { LightGreyCard } from "./Card";

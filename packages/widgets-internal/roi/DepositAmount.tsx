@@ -3,7 +3,17 @@ import { Currency, CurrencyAmount } from "@mixmarvelswap/sdk";
 import { memo, useCallback } from "react";
 import { styled } from "styled-components";
 
-import { BalanceInput, Text, Flex, Button, Box, QuestionHelper, RowBetween, Card, CardBody } from "@mixmarvelswap/uikit";
+import {
+  BalanceInput,
+  Box,
+  Button,
+  Card,
+  CardBody,
+  Flex,
+  QuestionHelper,
+  RowBetween,
+  Text,
+} from "@mixmarvelswap/uikit";
 import { CurrencyLogo } from "../components/CurrencyLogo";
 
 type Props = UsdAmountInputProps & TokenAmountsDisplayProps;

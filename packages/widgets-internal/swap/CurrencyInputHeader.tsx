@@ -1,5 +1,5 @@
+import { AtomBox, Heading, Text } from "@mixmarvelswap/uikit";
 import { ReactNode, memo } from "react";
-import { Heading, AtomBox, Text } from "@mixmarvelswap/uikit";
 
 interface Props {
   title: ReactNode;

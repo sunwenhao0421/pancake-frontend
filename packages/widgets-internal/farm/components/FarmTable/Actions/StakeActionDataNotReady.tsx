@@ -1,6 +1,6 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { Text, Skeleton } from "@mixmarvelswap/uikit";
-import { StyledActionContainer, ActionContent, ActionTitles } from "./styles";
+import { Skeleton, Text } from "@mixmarvelswap/uikit";
+import { ActionContent, ActionTitles, StyledActionContainer } from "./styles";
 
 const StakeActionDataNotReady = () => {
   const { t } = useTranslation();

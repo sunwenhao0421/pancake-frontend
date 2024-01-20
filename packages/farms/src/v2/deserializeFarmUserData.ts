@@ -1,6 +1,6 @@
-import BigNumber from 'bignumber.js'
 import { BIG_ZERO } from '@mixmarvelswap/utils/bigNumber'
-import { SerializedFarm, DeserializedFarmUserData } from '../types'
+import BigNumber from 'bignumber.js'
+import { DeserializedFarmUserData, SerializedFarm } from '../types'
 
 export const deserializeFarmUserData = (farm: SerializedFarm): DeserializedFarmUserData => {
   return {

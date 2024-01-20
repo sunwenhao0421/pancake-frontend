@@ -1,5 +1,5 @@
 import { useTranslation } from "@mixmarvelswap/localization";
-import { Balance, Flex, Button, Text } from "@mixmarvelswap/uikit";
+import { Balance, Button, Flex, Text } from "@mixmarvelswap/uikit";
 import { ActionContent, ActionTitles } from "./styles";
 
 export interface HarvestActionProps {

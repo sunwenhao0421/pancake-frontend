@@ -1,7 +1,7 @@
-import { useTranslation } from "@mixmarvelswap/localization";
 import { useIsMounted } from "@mixmarvelswap/hooks";
+import { useTranslation } from "@mixmarvelswap/localization";
+import { AutoColumn, IconButton, PencilIcon, RowBetween, Text, TextProps } from "@mixmarvelswap/uikit";
 import { PropsWithChildren, ReactNode } from "react";
-import { AutoColumn, RowBetween, Text, TextProps, IconButton, PencilIcon } from "@mixmarvelswap/uikit";
 
 type SwapInfoType = {
   price: ReactNode;
